@@ -13,7 +13,20 @@ This repository is a collection of short reviews of papers in Deep Learning. Rev
 ## <a name="guidlines"></a>Review Guildines
 ### Paper Selection
 * 
+### Introduction
+* 
 
+### Methodology
+* 
+
+### Critical Analysis
+* 
+
+### New Ideas/Questions
+* 
+
+### Conclusion
+* 
 
 ## <a name="contributions"></a>Contributions
 *"No one can whistle a symphony. It takes a whole orchestra to play it."* – H.E. Luccock  
