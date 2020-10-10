@@ -1,7 +1,7 @@
 # Paper Reviews
 
 ## Introduction
-This repository is a collection of short reviews of papers in Deep Learning. Reviews are based on papers which explore novel groundbreaking ideas or consist of theoretically rich concepts. A total of 2 short reviews are typically added each week which explore essential aspects of the work, its technical innovation and new questions and ideas raised by the work. Length of each review is 1 page excluding references. Each review is based on a fixed set of guidlines which are given [here](#guidlines). If you would like to contribute to the reviews then please read [this](#contributions).
+This repository is a collection of short reviews of papers in Deep Learning. Reviews are based on papers which explore novel groundbreaking ideas or consist of theoretically rich concepts. A total of 2 short reviews are typically added each week which explore essential aspects of the work, its technical innovation and new questions and ideas raised by the work. Length of each review is 1 page. Each review is based on a fixed set of guidlines which are given [here](#guidlines). If you would like to contribute to the reviews then please read [this](#contributions).
 
 ## Available Paper Reviews
 
