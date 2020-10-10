@@ -72,6 +72,6 @@ This section deals with the proposed method and its essential aspects in solving
 ## <a name="contributions"></a>Contributions
 *"No one can whistle a symphony. It takes a whole orchestra to play it."* – H.E. Luccock  
 
-Collaboration is most welcome for this repository. If you believe that you would like to practice your research writing skills or would like to do a literature survey for your independent study, then feel free to hop in! Reviews in this repository follow a general LaTeX templated which is available in the template folder. Furthermore, reviews written for the repository must follow the review guidlines which are available [here](#guidlines). Feel free to submit your review by opening a pull request.
+Collaboration is most welcome for this repository. If you believe that you would like to practice your research writing skills or would like to do a literature survey for your independent study, then feel free to hop in! Reviews in this repository follow a general LaTeX template which is available in the template folder. Furthermore, reviews written for the repository must follow the review guidlines which are available [here](#guidlines). Feel free to submit the paper and its review by opening a pull request.
 
 
