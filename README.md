@@ -16,7 +16,7 @@ This repository is a collection of short reviews of papers in Deep Learning. Rev
 
 
 ## <a name="contributions"></a>Contributions
-<p align="center">*"No one can whistle a symphony. It takes a whole orchestra to play it."* – H.E. Luccock</p>  
+*"No one can whistle a symphony. It takes a whole orchestra to play it."* – H.E. Luccock  
 
 Collaboration is most welcome for this repository. If you believe that you would like to prctice your research writing skills or would like to do a literature survey for your independent study, then feel free to hop in! Reviews in the repository follow a general LaTeX templated which is available [here](). Furthermore, reviews written for the repository must follow the review guidlines which are available [here](#guidlines).
 
