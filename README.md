@@ -5,14 +5,17 @@ This repository is a collection of short reviews of papers in Deep Learning. Rev
 
 ## Available Paper Reviews
 
-|Review Number|Paper Title|Author List|Review Link|
-|:-----------:|:---------:|:---------:|:---------:|
-|1|[Action and Perception as Divergence Minimization](https://arxiv.org/pdf/2009.01791.pdf)|Danijar Hafner,Pedro A. Ortega,Jimmy Ba,Thomas Parr,Karl Friston,Nicolas Heess|TBA|
-|2|[Momentum Contrast for Unsupervised Visual Representation Learning](https://arxiv.org/pdf/1911.05722.pdf)|Kaiming He,Haoqi Fan,Yuxin Wu,Saining Xie,Ross Girshick|TBA|
+|Review Number|Paper Title|Author List|Review Link|Contributor|
+|:-----------:|:---------:|:---------:|:---------:|:---------:|
+|1|[Action and Perception as Divergence Minimization](https://arxiv.org/pdf/2009.01791.pdf)|Danijar Hafner,Pedro A. Ortega,Jimmy Ba,Thomas Parr,Karl Friston,Nicolas Heess|TBA|[@karush17](https://github.com/karush17)|
+|2|[Momentum Contrast for Unsupervised Visual Representation Learning](https://arxiv.org/pdf/1911.05722.pdf)|Kaiming He,Haoqi Fan,Yuxin Wu,Saining Xie,Ross Girshick|TBA|[@karush17](https://github.com/karush17)|
 
 ## <a name="guidlines"></a>Review Guildines
+This section outlines the guidlines which are used to write reviews for the repository. Note that these guidlines must be strictly followed for providing high quality reviews to the reader. 
+
 ### Paper Selection
 * 
+
 ### Introduction
 * 
 
@@ -31,6 +34,6 @@ This repository is a collection of short reviews of papers in Deep Learning. Rev
 ## <a name="contributions"></a>Contributions
 *"No one can whistle a symphony. It takes a whole orchestra to play it."* – H.E. Luccock  
 
-Collaboration is most welcome for this repository. If you believe that you would like to practice your research writing skills or would like to do a literature survey for your independent study, then feel free to hop in! Reviews in this repository follow a general LaTeX templated which is available in the template folder. Furthermore, reviews written for the repository must follow the review guidlines which are available [here](#guidlines).
+Collaboration is most welcome for this repository. If you believe that you would like to practice your research writing skills or would like to do a literature survey for your independent study, then feel free to hop in! Reviews in this repository follow a general LaTeX templated which is available in the template folder. Furthermore, reviews written for the repository must follow the review guidlines which are available [here](#guidlines). Feel free to submit your review by opening a pull request.
 
 
