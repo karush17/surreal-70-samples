@@ -43,6 +43,11 @@ This section provides points on writing a good introduction for the review. Note
 
 
 ### Methodology
+This section deals with the proposed method and its essential apsects in solving the problem highlighted in the introduction section. Following points serve as a guide to writing this section-  
+* The content must provide a brief overview of the method. This informs the reader about what he is getting into.
+* Once an overview has been provided, the draft can start diving into the detail which should be highlighted intuitively.
+* Mathematical details must be followed by words, complicated terminology must be explained intuitively using equations or instances from work.
+* Reasons related to technical details and there usage must be provided to the reader. The whole point of reading a review is to crisply go over the details of the paper without wanting to read the entire text.
 * 
 
 ### Critical Analysis
