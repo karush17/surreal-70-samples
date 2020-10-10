@@ -29,6 +29,7 @@ This section provides points on writing a good introduction for the review. Note
 * The introduction should be a high-level idea of the paper and what the work deals with.
 * The reviewer must refrain from going into any technical detail and highlight the broad idea of the work and its scope.
 * No mathematical terms, definitions, technical explanations or algorithmic details should be provided to the reader.
+* The main focus should be on the problem statement and how the method aims to solve this.
 * A possible checklist of questions one might want to answer while writing a good introduction is as followed-
     - [ ] What is the main area of the work?
     - [ ] What are some of the open problems in this area?
