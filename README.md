@@ -7,7 +7,7 @@ This repository is a collection of short reviews of papers in Deep Learning. Rev
 
 |Review Number|Paper Title|Author List|Review Link|
 |:-----------:|:---------:|:---------:|:---------:|
-
+|1||[Action and Perception as Divergence Minimization](https://arxiv.org/pdf/2009.01791.pdf)|Danijar Hafner,Pedro A. Ortega,Jimmy Ba,Thomas Parr,Karl Friston,Nicolas Heess|-|
 
 ## <a name="guidlines"></a>Review Guildines
 
