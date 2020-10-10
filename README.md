@@ -28,8 +28,17 @@ Since Deep Learning is a fast-moving field, papers can span a broad variety of t
 This section provides points on writing a good introduction for the review. Note that these review points are not strict and only serve as a guiding principle for drafting a good introduction.  
 * The introduction should be a high-level idea of the paper and what the work deals with.
 * The reviewer must refrain from going into any technical detail and highlight the broad idea of the work and its scope.
+* No mathematical terms, definitions, technical explanations or algorithmic details should be provided to the reader.
 * A possible checklist of questions one might want to answer while writing a good introduction is as followed-
-    - [ ] 
+    - [ ] What is the main area of the work?
+    - [ ] What are some of the open problems in this area?
+    - [ ] What has been done so far to address these problems?
+    - [ ] What still remains as the scope of this paper?
+    - [ ] What does the paper propose?
+    - [ ] How does the paper solves this problem?
+    - [ ] What theoretical/practical insights does the work achieve?
+    - [ ] What could have been (or is) done better to solve the problem?
+* Key takeaway- Detail is your enemy!
 
 
 ### Methodology
