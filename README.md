@@ -11,6 +11,8 @@ This repository is a collection of short reviews of papers in Deep Learning. Rev
 |2|[Momentum Contrast for Unsupervised Visual Representation Learning](https://arxiv.org/pdf/1911.05722.pdf)|Kaiming He,Haoqi Fan,Yuxin Wu,Saining Xie,Ross Girshick|TBA|
 
 ## <a name="guidlines"></a>Review Guildines
+### Paper Selection
+* 
 
 
 ## <a name="contributions"></a>Contributions
