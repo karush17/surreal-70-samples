@@ -14,6 +14,9 @@ This repository is a collection of short reviews of papers in Deep Learning. Rev
 This section outlines the guidlines which are used to write reviews for the repository. Note that these guidlines must be strictly followed for providing high quality reviews to the reader. 
 
 ### Paper Selection
+Since Deep Learning is a fast-moving field, papers can span a broad variety of topics. In order to shorten the range of literature, papers must be selected using the following rules-  
+* Any review paper, survey or a long articles should not be considered since these are themselves a review of previous works and reviewing them would defeat the purpose of literature writing.
+* Short paper, Journal papers and theoretical works are suitable as these present a single idea which may be of interest to the reader.
 * 
 
 ### Introduction
