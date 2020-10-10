@@ -21,6 +21,7 @@ Since Deep Learning is a fast-moving field, papers can span a broad variety of t
 * There is no constraint on the publication date and time of papers. However, papers which date back to the 'AI Winter' are highly encouraged since these provide insights which were never looked at for a very long time.
 * Papers containing simply applications of pre-existing methods to various regimes are not preferred since they do not provide any new insights into the algorithm itself and only deal with its applicability.
 * Workshop papers and incomplete works are also welcome as researchers can always build on these ideas.
+* While there is no specific restriction on the content of papers, reviewer must consider fields in AI which are growing and require a new outlook, eg. Reinforcement Learning, Gradient-Free methods, Meta-Learning, Natural Language at Scale, Exlainability, etc.
 
 
 ### Introduction
