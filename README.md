@@ -50,6 +50,15 @@ This section deals with the proposed method and its essential apsects in solving
 * Reasons related to technical details and there usage must be provided to the reader. The whole point of reading a review is to crisply go over the details of the paper without wanting to read the entire text.
 * While the draft should highlight the method and its details, it should also provide the reader with insights from the reviewer's point of view. These could consist of specific reasons for selecting a set of parameter values, usage of a specific technique existing in literature, novel contribution and the reason behind its usage and any improvements/changes from previous works.
 * A possible checklist of constituents of this section is as followed-
+    - [ ] Overview of the method and its details
+    - [ ] Mathematical/technical details related to the algorithm and/or its implementations
+    - [ ] Proper reasoning behind technical contributions
+    - [ ] Detailed discussion of novel contributions
+    - [ ] Differences/improvements and their reasons from previous literature
+    - [ ] Critical insights into the method's applicability to practical scenarios
+    - [ ] Reviewer's own discussion about the method and its components
+* Key takeway- Detail is king!
+
 
 ### Critical Analysis
 * 
