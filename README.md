@@ -5,5 +5,9 @@ This repository is a collection of short reviews of papers in Deep Learning. Rev
 
 ## Available Paper Reviews
 
+|Review Number|Paper Title|Author List|Review Link|
+|:-----------:|:---------:|:---------:|:---------:|
+
+
 ## <a name="guidlines"></a>Review Guildines
 
