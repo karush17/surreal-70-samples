@@ -1,7 +1,7 @@
 # Paper Reviews
 
 ## Introduction
-This repository is a collection of short reviews of papers in Deep Learning. Reviews are based on papers which explore novel groundbreaking ideas or consist of theoretically rich concepts. A total of 2 short reviews are added each week which explore essential aspects of the work, its technical innovation and new questions and ideas raised by the work. Typical length of each review is 1-2 pages excluding references. Each review is written on a fixed set of guidlines which are given [here](#guidlines).
+This repository is a collection of short reviews of papers in Deep Learning. Reviews are based on papers which explore novel groundbreaking ideas or consist of theoretically rich concepts. A total of 2 short reviews are typically added each week which explore essential aspects of the work, its technical innovation and new questions and ideas raised by the work. Length of each review is 1 page excluding references. Each review is based on a fixed set of guidlines which are given [here](#guidlines). If you would like to contribute to the reviews then please read [this](#contributions).
 
 ## Available Paper Reviews
 
@@ -11,4 +11,11 @@ This repository is a collection of short reviews of papers in Deep Learning. Rev
 |2|[Momentum Contrast for Unsupervised Visual Representation Learning](https://arxiv.org/pdf/1911.05722.pdf)|Kaiming He,Haoqi Fan,Yuxin Wu,Saining Xie,Ross Girshick|TBA|
 
 ## <a name="guidlines"></a>Review Guildines
+
+
+## <a name="contributions"></a>Contributions
+<p align="center">*"No one can whistle a symphony. It takes a whole orchestra to play it."* – H.E. Luccock</p>  
+
+Collaboration is most welcome for this repository. If you believe that you would like to prctice your research writing skills or would like to do a literature survey for your independent study, then feel free to hop in! Reviews in the repository follow a general LateX templated which is available [here](). 
+
 
