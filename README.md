@@ -17,7 +17,11 @@ This section outlines the guidlines which are used to write reviews for the repo
 Since Deep Learning is a fast-moving field, papers can span a broad variety of topics. In order to shorten the range of literature, papers must be selected using the following rules-  
 * Any review paper, survey or a long articles should not be considered since these are themselves a review of previous works and reviewing them would defeat the purpose of literature writing.
 * Short paper, Journal papers and theoretical works are suitable as these present a single idea which may be of interest to the reader.
-* 
+* Papers containing experimental results balanced with theory are encouraged as these validate the practical applications of the proposed methods.
+* There is no constraint on the publication date and time of papers. However, papers which date back to the 'AI Winter' are highly encouraged since these provide insights which were never looked at for a very long time.
+* Papers containing simply applications of pre-existing methods to various regimes are not preferred since they do not provide any new insights into the algorithm itself and only deal with its applicability.
+* Workshop papers and incomplete works are also welcome as researchers can always build on these ideas.
+
 
 ### Introduction
 * 
