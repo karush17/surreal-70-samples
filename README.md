@@ -95,7 +95,15 @@ This section follows and builds upon the critical analysis section. The main ide
 Lastly, the conclusions section should clearly and concisely sum up the review of the work. This section should consist of a crisp summary of all the previous sections and only highlight their most important aspects. The content of this section should be directed to someone who does not have enough time to read the review and only wishes to grab the essential points. A good conlusion could be writtent using the following points-
 * The summary should start with a high level introductory note of the method, its usage and contributions. (not more 1-2 sentences)
 * The summary should explore the novelty of the method, its implications and the resulting outcome achieved from the reviewer's point of view.
-* 
+* The summary should walk over the key components of reviewer's evaluation and his comments on the method.
+* The summary should conclude with a brief note of new ideas/questions introduced by the work and potential directions for future work.
+* A possible checklist of questions the reviewer might ask himself while writing this section is as followed-
+    - [ ] Have I summarized the method and its constituents in a concise manner?
+    - [ ] Have I highlighted the novel aspects of the work for my reader?
+    - [ ] Have I provided the key components of my review/analysis?
+    - [ ] Have I paved the way for research by adding new ideas/questions?
+* Key takeway- Just be done already! 
+
 
 ## <a name="contributions"></a>Contributions
 *"No one can whistle a symphony. It takes a whole orchestra to play it."* – H.E. Luccock  
