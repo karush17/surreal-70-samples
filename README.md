@@ -61,6 +61,7 @@ This section deals with the proposed method and its essential aspects in solving
 
 
 ### Critical Analysis
+The critical analysis section deals with the reviewer's analysis and understanding of the method. Specifically, this section should highlight what the reviewer thinks about the proposed approach, its strengths, weaknesses and potential areas of improvement and applicability. This is the most important section of the review since the reviewer needs to critically evaluate and comment on the technical aspects of the work. The following points should be kept in mind while writing a good critical analysis-
 * 
 
 ### New Ideas/Questions
