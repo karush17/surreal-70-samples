@@ -63,7 +63,8 @@ This section deals with the proposed method and its essential aspects in solving
 ### Critical Analysis
 The critical analysis section deals with the reviewer's analysis and understanding of the method. Specifically, this section should highlight what the reviewer thinks about the proposed approach, its strengths, weaknesses and potential areas of improvement and applicability. This is the most important section of the review since the reviewer needs to critically evaluate and comment on the technical aspects of the work. The following points should be kept in mind while writing a good critical analysis-
 * One should evaluate all aspects of the work before diving into this section. A comprehensive analysis of the work is essential as it builds on the reviewer's understanding of the method.
-* Once the complete details have been established, a proper structure for evaluation should be constructed. Typically, this structure should consist of the comments on motivational aspect, strengths, weaknesses, novel contributions, applicability of the method, extensions and improvements of the method's components and their shortcomings. 
+* Once the complete details have been established, a proper structure for evaluation should be constructed. Typically, this structure should consist of comments on motivational aspect, strengths, weaknesses, novel contributions, applicability of the method, extensions and improvements of the method's components and their shortcomings. 
+* The draft should be written in a critical yet formal manner. For instance, the reviewer must highlight the intriguing aspects of the algorithm and at the same time throw light on its critical parts in a decorous manner.
 * 
 
 ### New Ideas/Questions
