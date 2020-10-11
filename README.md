@@ -82,7 +82,14 @@ This section follows and builds upon the critical analysis section. The main ide
 * The summary should be followed by a critical analysis or a set of possible questions which maybe asked while using the novel aspects of the method.
 * Since the focus is on novelty, reviewer may also be interested in asking questions related to other potential techniques and their applicability in place of the novel method.
 * The section should conclude with brief comments on substitutes/extensions to the novel components and questions left unanswered (if any) in the work.
-
+* A possible checklist of constituents of this section is as followed-
+    - [ ] What is the novelty of the proposed method?
+    - [ ] Can the novelty be used in other methods related to the area of work?
+    - [ ] What are some of the potential substitutes to the novel contributions?
+    - [ ] How would these compare to the novel contributions?
+    - [ ] What are some of the questions answered/addressed by the novel contributions? 
+    - [ ] What are some of the questions the method opens up? Is it suitable as a future research direction?
+ 
 
 ### Conclusion
 * 
