@@ -77,7 +77,7 @@ The critical analysis section deals with the reviewer's analysis and understandi
 
 
 ### New Ideas/Questions
-This section follows and builds upon the critical analysis section.
+This section follows and builds upon the critical analysis section. The main idea behind this section is to highlight and examine the novel contributions of the proposed method and their contributions towards improving prior techniques. Another reason to study new ideas proposed by a paper is to identify potential directions of research and answer open questions from different perspectives. Following points may come in handy while writing this section-
 * 
 
 ### Conclusion
