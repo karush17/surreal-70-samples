@@ -89,9 +89,12 @@ This section follows and builds upon the critical analysis section. The main ide
     - [ ] How would these compare to the novel contributions?
     - [ ] What are some of the questions answered/addressed by the novel contributions? 
     - [ ] What are some of the questions the method opens up? Is it suitable as a future research direction?
- 
+* Key takeway- Questions, Questions, Questions! 
 
-### Conclusion
+### Conclusions
+Lastly, the conclusions section should clearly and concisely sum up the review of the work. This section should consist of a crisp summary of all the previous sections and only highlight their most important aspects. The content of this section should be directed to someone who does not have enough time to read the review and only wishes to grab the essential points. A good conlusion could be writtent using the following points-
+* The summary should start with a high level introductory note of the method, its usage and contributions. (not more 1-2 sentences)
+* The summary should explore the novelty of the method, its implications and the resulting outcome achieved from the reviewer's point of view.
 * 
 
 ## <a name="contributions"></a>Contributions
