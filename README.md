@@ -78,7 +78,11 @@ The critical analysis section deals with the reviewer's analysis and understandi
 
 ### New Ideas/Questions
 This section follows and builds upon the critical analysis section. The main idea behind this section is to highlight and examine the novel contributions of the proposed method and their contributions towards improving prior techniques. Another reason to study new ideas proposed by a paper is to identify potential directions of research and answer open questions from different perspectives. Following points may come in handy while writing this section-
-* 
+* One should concisely summarize the novel contributions of the work (not more than 1-2 sentences).
+* The summary should be followed by a critical analysis or a set of possible questions which maybe asked while using the novel aspects of the method.
+* Since the focus is on novelty, reviewer may also be interested in asking questions related to other potential techniques and their applicability in place of the novel method.
+* The section should conclude with brief comments on substitutes/extensions to the novel components and questions left unanswered (if any) in the work.
+
 
 ### Conclusion
 * 
