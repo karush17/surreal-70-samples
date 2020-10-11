@@ -74,9 +74,10 @@ The critical analysis section deals with the reviewer's analysis and understandi
     - [ ] How can these components be used in theoretical/practical scenarios related to the area of work?
     - [ ] How can these components be improved and in theoretical/practical scenarios related to the area of work?
 * Key takeway- Your own contributions matter!
-  
+
 
 ### New Ideas/Questions
+This section follows and builds upon the critical analysis section.
 * 
 
 ### Conclusion
