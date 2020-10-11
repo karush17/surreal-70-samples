@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.10.7)  10 OCT 2020 18:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.10.7)  10 OCT 2020 20:05
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"k:/Karush Suri/2516-Assignment4/main.tex"
-(k:/Karush Suri/2516-Assignment4/main.tex
+**"c:/Users/Karush Suri/Desktop/Paper Reviews/template/main.tex"
+(c:/Users/Karush Suri/Desktop/Paper Reviews/template/main.tex
 LaTeX2e <2020-10-01>
 L3 programming layer <2020-10-05> xparse <2020-03-03> (k:/texlive/2020/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
@@ -329,25 +329,25 @@ Package hyperref Info: Option `colorlinks' set `true' on input line 24.
 File: l3backend-pdftex.def 2020-09-24 L3 backend support: PDF output (pdfTeX)
 \l__kernel_color_stack_int=\count287
 \l__pdf_internal_box=\box53
-) (k:/Karush Suri/2516-Assignment4/main.aux)
+) (c:/Users/Karush Suri/Desktop/Paper Reviews/template/main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -385,7 +385,7 @@ LaTeX Font Info:    ... okay on input line 62.
 
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 62.
+(lastpage)             ! on input line 57.
 (k:/texlive/2020/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count288
@@ -406,7 +406,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 \c@lstlisting=\count294
-Package hyperref Info: Link coloring ON on input line 62.
+Package hyperref Info: Link coloring ON on input line 57.
  (k:/texlive/2020/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
  (k:/texlive/2020/texmf-dist/tex/latex/refcount/refcount.sty
@@ -416,10 +416,10 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count295
 )
-LaTeX Info: Redefining \ref on input line 62.
-LaTeX Info: Redefining \pageref on input line 62.
-LaTeX Info: Redefining \nameref on input line 62.
- (k:/Karush Suri/2516-Assignment4/main.out) (k:/Karush Suri/2516-Assignment4/main.out)
+LaTeX Info: Redefining \ref on input line 57.
+LaTeX Info: Redefining \pageref on input line 57.
+LaTeX Info: Redefining \nameref on input line 57.
+ (c:/Users/Karush Suri/Desktop/Paper Reviews/template/main.out) (c:/Users/Karush Suri/Desktop/Paper Reviews/template/main.out)
 \@outlinefile=\write3
 \openout3 = `main.out'.
 
@@ -430,20 +430,20 @@ Package caption Info: End \AtBeginDocument code.
 AED: lastpage setting LastPage
 [1{k:/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
-] (k:/Karush Suri/2516-Assignment4/main.aux)
+] (c:/Users/Karush Suri/Desktop/Paper Reviews/template/main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 10015 strings out of 479916
- 151055 string characters out of 5886642
- 463416 words of memory out of 5000000
- 26447 multiletter control sequences out of 15000+600000
- 535993 words of font info for 32 fonts, out of 8000000 for 9000
+ 10018 strings out of 479916
+ 151363 string characters out of 5886642
+ 463422 words of memory out of 5000000
+ 26449 multiletter control sequences out of 15000+600000
+ 536950 words of font info for 35 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,11n,66p,274b,325s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,11n,66p,294b,325s stack positions out of 5000i,500n,10000p,200000b,80000s
 <k:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><k:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><k:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-Output written on "k:/Karush Suri/2516-Assignment4/main.pdf" (1 page, 28459 bytes).
+Output written on "c:/Users/Karush Suri/Desktop/Paper Reviews/template/main.pdf" (1 page, 27690 bytes).
 PDF statistics:
  25 PDF objects out of 1000 (max. 8388607)
  18 compressed objects within 1 object stream
