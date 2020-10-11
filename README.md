@@ -65,7 +65,16 @@ The critical analysis section deals with the reviewer's analysis and understandi
 * One should evaluate all aspects of the work before diving into this section. A comprehensive analysis of the work is essential as it builds on the reviewer's understanding of the method.
 * Once the complete details have been established, a proper structure for evaluation should be constructed. Typically, this structure should consist of comments on motivational aspect, strengths, weaknesses, novel contributions, applicability of the method, extensions and improvements of the method's components and their shortcomings. 
 * The draft should be written in a critical yet formal manner. For instance, the reviewer must highlight the intriguing aspects of the algorithm and at the same time throw light on its critical parts in a decorous manner.
-* 
+* Reviewer's comments should be their own and not focus on explaining the work. The main idea behind this section is to present your understanding of the text to the reader, not the text itself.
+* A possible checklist of questions one may ask while writing this section is as followed-
+    - [ ] Have all the aspects of the work been convered in an articulate manner?
+    - [ ] What are the key components of the method?
+    - [ ] What are the strengths, weaknesses, applications, extensions and shortcomings of these components?
+    - [ ] How are these components novel in nature?
+    - [ ] How can these components be used in theoretical/practical scenarios related to the area of work?
+    - [ ] How can these components be improved and in theoretical/practical scenarios related to the area of work?
+* Key takeway- Your own contributions matter!
+  
 
 ### New Ideas/Questions
 * 
