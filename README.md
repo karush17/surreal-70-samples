@@ -63,7 +63,7 @@ This section deals with the proposed method and its essential aspects in solving
 ### Critical Analysis
 The critical analysis section deals with the reviewer's analysis and understanding of the method. Specifically, this section should highlight what the reviewer thinks about the proposed approach, its strengths, weaknesses and potential areas of improvement and applicability. This is the most important section of the review since the reviewer needs to critically evaluate and comment on the technical aspects of the work. The following points should be kept in mind while writing a good critical analysis-
 * One should evaluate all aspects of the work before diving into this section. A comprehensive analysis of the work is essential as it builds on the reviewer's understanding of the method.
-* Once the complete details have been established, a proper structure for evaluation should be constructed. Typically, this structure should consist of comments on motivational aspect, strengths, weaknesses, novel contributions, applicability of the method, extensions and improvements of the method's components and their shortcomings. 
+* Once the complete details have been established, a proper structure for evaluation should be constructed. Typically, this structure should consist of comments on motivational aspects, strengths, weaknesses, novel contributions, applicability of the method, extensions and improvements of the method's components and their shortcomings. 
 * The draft should be written in a critical yet formal manner. For instance, the reviewer must highlight the intriguing aspects of the algorithm and at the same time throw light on its critical parts in a decorous manner.
 * Reviewer's comments should be their own and not focus on explaining the work. The main idea behind this section is to present your understanding of the text to the reader, not the text itself.
 * A possible checklist of questions one may ask while writing this section is as followed-
@@ -92,7 +92,7 @@ This section follows and builds upon the critical analysis section. The main ide
 * Key takeway- Questions, Questions, Questions! 
 
 ### Conclusions
-Lastly, the conclusions section should clearly and concisely sum up the review of the work. This section should consist of a crisp summary of all the previous sections and only highlight their most important aspects. The content of this section should be directed to someone who does not have enough time to read the review and only wishes to grab the essential points. A good conlusion could be writtent using the following points-
+Lastly, the conclusions section should clearly and concisely sum up the review of the work. This section should consist of a crisp summary of all the previous sections and only highlight their most important aspects. The content of this section should be directed to someone who does not have enough time to read the review and only wishes to grab the essential points. A good conlusion could be written using the following points-
 * The summary should start with a high level introductory note of the method, its usage and contributions. (not more 1-2 sentences)
 * The summary should explore the novelty of the method, its implications and the resulting outcome achieved from the reviewer's point of view.
 * The summary should walk over the key components of reviewer's evaluation and his comments on the method.
