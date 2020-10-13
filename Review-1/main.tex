@@ -2,7 +2,7 @@
            % DO NOT CHANGE THIS PART OF THE FILE%
            % ################################### %
 
-\documentclass[12pt,letterpaper]{article}
+\documentclass[11pt,letterpaper]{article}
 \usepackage{fullpage}
 \usepackage[top=2cm, bottom=4.5cm, left=2.5cm, right=2.5cm]{geometry}
 \usepackage{amsmath,amsthm,amsfonts,amssymb,amscd}
@@ -68,5 +68,5 @@ Divergence minimization has seen a tremendous growth in designing novel Reinforc
 
 Various information-based objectives in literature such as inference methods, information gains, entropy-based exploration and free-energy minimization principle can be thought of as a joint divergence minimization approach. The unified objective consists of an actual distribution (which is a generative process parameterized by the agent) and a target distribution (which is desired by the agent). The joint divergence minimization makes use of the Kullback-Liebler (KL) divergence metric to bring the actual distribution closer to the target distribution by optimizing over the agent's parameters. The optimization of the agent consists of two stages. (1) Firstly, the perception phase aligns beliefs of the agent with its past inputs based on inference of latent variables. These latent variables are not observed over time and can only be utilized in an indirect manner such latent representations in representation learning or model parameters in the case of model learning. (2) Secondly, the action phased aligns the future inputs with the agent's beliefs by making use of the latent variables estimated in the perception. These typically are made use of in a future term entropy in exploration, skill discovery in hierarchical RL or information gain in model learning. The combinationg of action and perception renders task rewards optional since the agent itself learns in latent space.
 
-
+The work presents a detailed review of various information-based objectives and their retrieval from the unified action-perception objective. Moreover, the review keeps a close connection to the actual and target distributions highlighted in the definition of the objective which provide a generalized procedure for constructing novel objectives for future works. On the other hand, the unified objective itself is constructed of primitive entities observed in literature and does not give rise to a new objective. Moreover, the framework proposed is dense and throws little light on how to practically use the unified objective in the formulation of novel information-based methods. Lastly, the unified objective mentions connections to a few essential methods such as surprise minimization but does not take them into account as a significant example.   
 \end{document}
