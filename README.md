@@ -9,7 +9,7 @@ This repository is a collection of short reviews of papers in Deep Learning. Rev
 |:-----------:|:---------:|:---------:|:---------:|:---------:|
 |1|[Action and Perception as Divergence Minimization](https://arxiv.org/pdf/2009.01791.pdf)|Danijar Hafner,Pedro A. Ortega,Jimmy Ba,Thomas Parr,Karl Friston,Nicolas Heess|[link](https://github.com/karush17/Paper-Reviews/blob/master/Review-1/main.pdf)|[@karush17](https://github.com/karush17)|
 |2|[Momentum Contrast for Unsupervised Visual Representation Learning](https://arxiv.org/pdf/1911.05722.pdf)|Kaiming He,Haoqi Fan,Yuxin Wu,Saining Xie,Ross Girshick|[link](https://github.com/karush17/Paper-Reviews/blob/master/Review-2/main.pdf)|[@karush17](https://github.com/karush17)|
-|3|[Momentum Contrast for Unsupervised Visual Representation Learning](https://arxiv.org/pdf/1911.05722.pdf)|Kaiming He,Haoqi Fan,Yuxin Wu,Saining Xie,Ross Girshick|[link](https://github.com/karush17/Paper-Reviews/blob/master/Review-2/main.pdf)|[@karush17](https://github.com/karush17)|
+|3|[When to use parametric models in reinforcement learning?](https://arxiv.org/pdf/1906.05243.pdf)|Hado van Hasselt, Matteo Hessel, John Aslanides|TBA|[@karush17](https://github.com/karush17)|
 
 
 ## <a name="guidlines"></a>Review Guidlines
