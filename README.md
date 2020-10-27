@@ -12,7 +12,7 @@ This repository is a collection of short reviews of papers in Deep Learning. Rev
 |3|[When to use parametric models in reinforcement learning?](https://arxiv.org/pdf/1906.05243.pdf)|Hado van Hasselt, Matteo Hessel, John Aslanides|[link](https://github.com/karush17/Paper-Reviews/blob/master/Review-3/main.pdf)|[@karush17](https://github.com/karush17)|
 |4|[Data-Efficient Image Recognition With Contrastive Predictive Coding](https://arxiv.org/pdf/1905.09272v2.pdf)|Olivier J. Henaff,Aravind Srinivas,Jeffrey De Fauw,Ali Razavi,Carl Doersch,S. M. Ali Eslami,Aaron van den Oord|[link](https://github.com/karush17/Paper-Reviews/blob/master/Review-4/main.pdf)|[@karush17](https://github.com/karush17)|
 |5|[A Learning Algorithm for Boltzmann Machines](https://onlinelibrary.wiley.com/doi/pdf/10.1207/s15516709cog0901_7)|David H. Ackley,Geoffrey E. Hinton,Terrence J. Sejnowski|[link](https://github.com/karush17/Paper-Reviews/blob/master/Review-5/main.pdf)|[@karush17](https://github.com/karush17)|
-|6|[Dependence Measures Bounding the Exploration Bias for General Measurements](https://arxiv.org/pdf/1612.05845.pdf)|Jiantao Jiao,Yanjun Han,Tsachy Weissman|TBA|[@karush17](https://github.com/karush17)|
+|6|[Dependence Measures Bounding the Exploration Bias for General Measurements](https://arxiv.org/pdf/1612.05845.pdf)|Jiantao Jiao,Yanjun Han,Tsachy Weissman|[link](https://github.com/karush17/Paper-Reviews/blob/master/Review-6/main.pdf)|[@karush17](https://github.com/karush17)|
 |7|[On Variational Bounds of Mutual Information](https://arxiv.org/pdf/1905.06922.pdf)|Ben Poole,Sherjil Ozair,Aaron van den Oord,Alexander A. Alemi,George Tucker|TBA|[@karush17](https://github.com/karush17)|
 
 
