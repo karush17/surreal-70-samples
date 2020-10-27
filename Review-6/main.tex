@@ -60,6 +60,8 @@
 
 Generalization bounds have played a significant role in strengthening learning algorithms. However, their development in settings related to control measurements and adaptive data analysis remain scant. To that end, the work proposes a novel generalization bound based on $\phi$-divergences which generalizes to long-tail distributions which arise in most practical learning scenarios such as controlling measurements and reinforcement learning. 
 
+Existing generalization bounds in literature are based on the sub-Gaussianity assumption and do not generalize well to long-tailed distributions. Moreover, these bounds are based on a number of specific rules which hinder their application to practical learning settings. The novel bound proposed in the work generalizes to all distributions with non-trivial moment generating functions. The bound introduces new dependent measure $I_{\alpha}(X;Y)$ which retains the key properties of mutual information. The bound makes use of $\phi$-divergences as these are the only decomposable divergences that satisfy the data processing inequality. The bound is generalizable using Holder's inequality and Fenchel-Young inequality by following the same framework. Tightness of the bound is theoretically evaluated using extreme value theory and the exploration bias with $\beta$-norm bounded is upper bounded by $n^{\frac{1}{\beta}}$ with $2 \leq\beta<\infty$. Additionally, results obtained in the work are found to be soft generalizations of hard results preexisting in literature. 
+
 
 
 \end{document}
