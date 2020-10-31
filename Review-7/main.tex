@@ -65,6 +65,8 @@ Variational bounds provide tractability of objectives and improved approximation
 
 The multi-sample InfoNCE bound trades off variance with bias for the correlated Gaussian problem. Additionally, the utility of bounds for representation learning is highlighte din the case of position and scale on the dSpirtes dataset. However, the bound presents two shortcomings. Firstly, InfoNCE objective demonstrates saturation of estimates at $\log(batch-size)$. This hinders the scalability of the bound to problems consisting of larger batch sizes. Secondly, the $I_{\alpha}$ metric outperforms other bounds in terms of bias and variance and results in a reduced MSE in the InfoMAX objective. Thsi presents InfoMAX as a suitable candidate for multi-sample inpterpolation. However, the work does not throw light on this aspect. 
 
+Multi-sample interpolated bounds allow the objective function to be controlled as per the nature of problem setting. However, their application is limited to optimal MI and batch sizes. The interpolation avenue presents two possible directions for future work. Firstly, the multi-sample framework can be extended to $I_{\alpha}$ in the InfoMAX setting which may provide insights into improved bias and variance as per the structure of the problem. Secondly, the InfoNCE lower bound on MI can be sharpened using generalization bounds which would aid in improved estimation but may hinder tractability in the case of parameteric settings. 
+
 
 
 \end{document}
