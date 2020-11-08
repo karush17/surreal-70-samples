@@ -66,7 +66,7 @@ The proposed hierarchical framework depicts improved robustness and energy-effic
 
 Controlling qudruped locomotion in an efficient and robust manner in the real world is a challenging task. To that end, the work opens 2 new avenues for future work in this direction. Firstly, the design of contact-adaptive control can be extended to higher degrees of freedom and complex task spaces wherein the robot links can have multiple swing and stance states. Lastly, the hierarchical framework consisting of RL and adaptive control can accomodate more hierarchies. This would allow the robot to learn diverse contact-based behaviors such as angular contacts. 
 
-
+The work presented a novel hierarchical framework for contact-adaptive control. The framework consists of a high-level controller which selects gait primitives using RL based on the dynamics of the robot. The RL policy is constructed in a DQN-like manner with the objective to minimize energy cost and body pose heuristics using the reward function. The low-level controller uses the selected primitives to solve for foot forces using QP. Foot forces yield motor torques which adapt as per the contact state of the robot. When evaluated on a range of variable scenarios and a physical robot, the controller demonstrates robust control and energy-efficient behavior. Additionally, learning primitives in a hierarchical manner allows the controller to generalize to unseen tasks such as a frictional surface. 
 
 
 \end{document}
