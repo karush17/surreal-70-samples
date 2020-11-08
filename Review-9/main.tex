@@ -64,6 +64,8 @@ The work aims to tackle robustness in real-world controllers by unifying RL with
 
 The proposed hierarchical framework depicts improved robustness and energy-efficiency in comparison to baseline methods which are constructed from static high-level controllers. Additionally, Sim-to-Real experiments carried on the physical robot validate the robustness of the high and low-level controllers while walking forward and during leg perturbations. However, the energy-efficiency of the robot can be better evaluated by improving the design of experiments. For instance, the curious reader may ask that what would happen to the energy of the system if instead of keeping one surface static during training, both surfaces were moving? Moreover, how would the energy and robustness turn out if the movement was made intermittent? Leveraging a more thorough design choice for experiments would lead to a better evaluation of energy and robustness. 
 
+Controlling qudruped locomotion in an efficient and robust manner in the real world is a challenging task. To that end, the work opens 2 new avenues for future work in this direction. Firstly, the design of contact-adaptive control can be extended to higher degrees of freedom and complex task spaces wherein the robot links can have multiple swing and stance states. Lastly, the hierarchical framework consisting of RL and adaptive control can accomodate more hierarchies. This would allow the robot to learn diverse contact-based behaviors such as angular contacts. 
+
 
 
 
