@@ -16,6 +16,7 @@ This repository is a collection of short reviews of papers in Deep Learning. Rev
 |7|[On Variational Bounds of Mutual Information](https://arxiv.org/pdf/1905.06922.pdf)|Ben Poole,Sherjil Ozair,Aaron van den Oord,Alexander A. Alemi,George Tucker|[link](https://github.com/karush17/Paper-Reviews/blob/master/Review-7/main.pdf)|[@karush17](https://github.com/karush17)|
 |8|[Hindsight Credit Assignment](https://arxiv.org/pdf/1912.02503.pdf)|Anna Harutyunyan, Will Dabney, Thomas Mesnard, Nicolas Heess, Mohammad G. Azar, Bilal Piot, Hado van Hasselt, Satinder Singh, Greg Wayne, Doina Precup, Rémi Munos|[link](https://github.com/karush17/Paper-Reviews/blob/master/Review-8/main.pdf)|[@karush17](https://github.com/karush17)|
 |9|[Learning a Contact-Adaptive Controller for Robust, Efficient Legged Locomotion](https://arxiv.org/pdf/2009.10019.pdf)|Xingye Da, Zhaoming Xie, David Hoeller, Byron Boots, Animashree Anandkumar, Yuke Zhu, Buck Babich, Animesh Garg|[link](https://github.com/karush17/Paper-Reviews/blob/master/Review-9/main.pdf)|[@karush17](https://github.com/karush17)|
+|9|[Counterfactual Data Augmentation using Locally Factored Dynamics](https://arxiv.org/pdf/2007.02863.pdf)|Silviu Pitis, Elliot Creager, Animesh Garg|[link](https://github.com/karush17/Paper-Reviews/blob/master/Review-10/main.pdf)|[@karush17](https://github.com/karush17)|
 
 
 ## <a name="guidlines"></a>Review Guidlines
