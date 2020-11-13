@@ -63,7 +63,9 @@ In most real-world scenarios, agents require safe behavior which would enable ri
 
 CARL is evaluated on 4 risk-prone scenarios wherein the agent needs to adapt by seeking risk-averse policies. While CARL depicts improved performance in comparison to baseline methods, it often fails to generalize to Out-of-Domain samples. For instance, CARL presents the maximum number of pole falls and boundary collisions in CartPole and DuckieTown tasks respectively. Sub-optimal risk aversion may be the result of an inaccurate model due to its pretraining on non-critical safety settings. Additionally, the method does not provide intuition on the tradeoff between risk and reward while executng cautious behavior. 
 
-CARL exhibits risk-averse policies which enable the agent to restrict visitation of catastrophic states. The work 
+CARL exhibits risk-averse policies which enable the agent to restrict visitation of catastrophic states. The work presents two new directions for future research. Firstly, pretraining the model on risk-prone tasks may improve the generalization of the agent on structurally similar domains. Secondly, most real-world safety-critical applications such as medical diagnosis involve policies robust to external perturbations. The framework can be further extended towards such tasks by perturbing agent's optimal behavior such as intermittent jerks during its execution. 
+
+
 
 
 
