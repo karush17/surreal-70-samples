@@ -1,5 +1,5 @@
 
-\documentclass[11pt,letterpaper]{article}
+\documentclass[12pt,letterpaper]{article}
 \usepackage{fullpage}
 \usepackage[top=2cm, bottom=4.5cm, left=2.5cm, right=2.5cm]{geometry}
 \usepackage{amsmath,amsthm,amsfonts,amssymb,amscd}
@@ -65,6 +65,6 @@ Linear parameterization of the model aids in recursive computation of value esti
 
 Sub-linear regret obtained as a result of value-targeted regression can be empirically validated using linearized models. The work presents this as suitable direction for future work. Additionally, stochasticity in estimates arising from value function can be highlighted and addressed based on the problem setting and its dynamics. 
 
-
+The work formulates model parameter estimation as a ridge-regression problem. Targets of regression setting are latest value estimates with the predicted variables obtained using convenient recursive computations. Value-targeted regression results in an upper bound $\mathcal{O}(d\sqrt{H^{3}T})$ which demonstrates sub-linear regret and is close to the lower bound $\Omega(\sqrt{HdT})$. 
 
 \end{document}
