@@ -63,6 +63,8 @@ Conventional model-based RL methods explicitly estimate transition probabilities
 
 Linear parameterization of the model aids in recursive computation of value estimates and hence, provides an upper confidence bound with sub-linear regret. Additionally, $Q$-value estimates can be parameterized by $d$ parameters and sufficiently balance exploration with epxloitation by making use of an exploration bonus. However, the work does not provide intuitive insights into the sufficiency of value-targeted regression. The formulation of value estimates as variable targets only leads to a theoretical result which does not provide strong guarantees on the empirical aspects of the bound. Additionally, target variables directly make use of latest value estimates as a result of which they may suffer from high stochasticity of the value function. This allows one to ask whether the bound trades off variance at the cost of regret? An intuitive perpsective of stochasticity in estimates would help explain the bound coherently.
 
+Sub-linear regret obtained as a result of value-targeted regression can be empirically validated using linearized models. The work presents this as suitable direction for future work. Additionally, stochasticity in estimates arising from value function can be highlighted and addressed based on the problem setting and its dynamics. 
+
 
 
 \end{document}
