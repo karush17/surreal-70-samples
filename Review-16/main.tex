@@ -1,0 +1,68 @@
+
+\documentclass[11pt,letterpaper]{article}
+\usepackage{fullpage}
+\usepackage[top=2cm, bottom=4.5cm, left=2.5cm, right=2.5cm]{geometry}
+\usepackage{amsmath,amsthm,amsfonts,amssymb,amscd}
+\usepackage{lastpage}
+\usepackage{enumerate}
+\usepackage{fancyhdr}
+\usepackage{mathrsfs}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{listings}
+\usepackage{hyperref}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{float}
+\hypersetup{%
+  colorlinks=true,
+  linkcolor=blue,
+  linkbordercolor={0 0 1}
+}
+\renewcommand\lstlistingname{Algorithm}
+\renewcommand\lstlistlistingname{Algorithms}
+\def\lstlistingautorefname{Alg.}
+
+\lstdefinestyle{Python}{
+    language        = Python,
+    frame           = lines, 
+    basicstyle      = \footnotesize,
+    keywordstyle    = \color{blue},
+    stringstyle     = \color{green},
+    commentstyle    = \color{red}\ttfamily
+}
+
+\setlength{\parindent}{0.0in}
+\setlength{\parskip}{0.05in}
+
+
+
+\pagestyle{fancyplain}
+\headheight 35pt
+                 % ENTER REVIEW NUMBER HERE %
+\chead{\textbf{\large Review-16}}
+           % ################################### %
+
+\lfoot{}
+\cfoot{}
+\rfoot{\small\thepage}
+\headsep 1.5em
+
+\begin{document}
+
+
+                 % ENTER PAPER TITLE HERE %
+\begin{center}
+  \large{Conservative Safety Critics For Exploration}
+\end{center}
+           % ################################### %
+
+In various critical scenarios a Reinforcement Learning (RL) agent may desire safe exlporation scenarios in order to evade catastrophic states. A natural alternative is conservative safety behavior which allows the agent to learn safety estimate of states. Conservative Safety Critics (CSC) learn a conervative safety estimate of states through a critic which overstimates the probability of failure using Conservative Q-Learning (CQL). The work provides theoretical characterizations on the trade-off between safety and policy improvement and derives provable convergence guarantees. CSC demonstrates lower failure rates as a result of safe exploration while achieving competitive task reward performance. 
+
+CSC makes use of CQL to overestimate the critic Q-function $Q_{C}$ which indicates the safety estimate corresponding to the probability of failure. Actions from the agent's policy are sampled using rejection sampling wherein the sampled action is only executed if $Q_{C}$ is less than a threshold $\epsilon$. Policy optimization is modeled as an optimization problem which is carried out using primal dual descent. Policy parameters are updated using gradient ascent on a KL-constrained objective based on Fisher Information Matrix while the Lagrange multiplier $\lambda$ is updated using gradient descent. Parameters of the conservative critic are updated using gradient descent on estimates from on-policy and off-policy experiences. Following CSC, the work presents theoretical insights into the trade-off between policy improvement and safety. Expected probability of failure $V_{C}^{\pi_{\phi}}(\mu)$ under policy $\pi_{\phi}$ is upper bounded during every policy update iteration. Additionally, convergence rate for policy gradient updates has an upper bounded which is as good as standard RL. Theoretical claims of CSC on reward-safety trade-off and convergence rate are validated using empirical evaluations on a suite of tasks. 
+
+CSC is evaluated on navigation, manipulation and locootion tasks in comparison to challenging baselines. EXperiments depict lower failure rates for CSC while maintaining competitive task rewards. Additionally, ablation studies carried out on safety thresholds validate the theoretical claims. While the proposed approach is effective and suitable for safe exploration, its analysis poses two limitations. Firstly, CSC overstimates failure probabilities which motivate conservative exploration. Such a scheme hinders the agent from obtaining higher task rewards and may be problematic from its theoretical viewpoint. An increase in the overestimation gap may lead to a decrease in the upper bound of $V_{C}^{\pi_{\phi}}(\mu)$. This would lead to inaccurate estimates sub-optimal safety as the bound will not hold true. Lastly, at zero safety threshold the CSC agent should demonstrate no failures which is not the case in experiments. This could be further improved by utilizing a more robust safety framework which does not depend on the threshold heuristic of $Q_{C} \geq \epsilon$. 
+
+
+
+\end{document}
