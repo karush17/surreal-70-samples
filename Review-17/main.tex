@@ -62,6 +62,8 @@ The original framework of DreamerV2 is adopted from DreamerV1 which consists of 
 
 DreamerV2 demonstrates improved performance across all comparison metrics and highlights the efficacy of learning world models. Suitability of categorical latents is further validated in comparison to prior gaussian latents in DreamerV1 using a short ablation study. Additionally, DreamerV2 utilizes equivalent compute as the model-free Rainbow. However, the experimental setup presents several limitations. Due to the high number of improvements, a comprehensive abaltion study may not be possible but DreamerV2 could be compared to DreamerV1 or its baselines from the original work. Additionally, DreamerV2 being a model-based approach, is not compared to state-of-the-art methods such as SimPLe which are oterhwise found to be sample efficient and competitive. Lastly, the summary of modifications provides various changes which were tried but did not work. However, the summary does not provide any insights into why do these changes fail to improve performance. 
 
+DreamerV2 is a significant improve over the original DreamerV1 framework. The ethod is competitive to model-free algorithms such as Rainbow which are developed on years of ctting-edge research. The work presents two novel directions for future work. A thourough ablation study of the changes from DreamerV1 to DreamerV2 would aid in better explainability of performance and shortcomings of world models. Lastly, it would be interesting to see how world models would perform in settings where the main object occupies lesser number of pixels. This would help evaluate the sub-optimal preformance of DreamerV2 on VideoPinball. 
+
 
 
 \end{document}
