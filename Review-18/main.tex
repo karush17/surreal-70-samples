@@ -65,6 +65,8 @@ The incorrect $argmax$ estimations of QMIX projections demonstrate its limitatio
 
 CW-QMIX and OW-QMIX demonstrate improved performance on SMAC StarCraft II micromanagement scenarios and Predator Prey which require greater collaboration per timestep. In addition to performance, the weighting schemes depict robustness to increased exploration indicating suitability of weighting in retrieving expressive joint action representations. While the weighting scheme stabilizes the performance and expressivity of mixing, it presents two shortcomings. Firstly, in case of scenarios with large number of agents and difficuly dynamics, CW-QMIX and OW-QMIX require extensive exploration to converge to an optimal policy. This may indicate that weighting Bellman updates leads to sample-efficient learning. Lastly, the work highlights the limitation of learning $\hat{Q}^{*}$ as a potential limitation since it aggregates complexity in the network architecture. This may be addressed using a more sophisticated robust weighting scheme which does not affect $Q$ with the increasing number of agents. 
 
+Introduction of novel weighting schemes for improving joint action projections of QMIX are an apt suggestive for collaboration in MARL. The work hints at two new directions for future research. Firstly, suitability of CW-QMIX and OW-QMIX still remain an open problem on temporally-extended and extensive MARL problems consisting of large number of agents. These could be tackled by combining weighting with other RL methods such as Hierarchical RL. Lastly, introduction of alternate weighting schemes which eliminate learning of $\hat{Q}^{*}$ could be studied for improved performance of QMIX architecture. 
+
 
 
 
