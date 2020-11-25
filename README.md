@@ -1,5 +1,6 @@
 # Paper Reviews
 
+
 ## Introduction
 This repository is a collection of short reviews of papers in Deep Learning. Reviews are based on papers which explore novel groundbreaking ideas or consist of theoretically rich concepts. A total of 2 short reviews are typically added each week which explore essential aspects of the work, its technical innovation and new questions and ideas raised by the work. Length of each review is 1 page. Each review is based on a fixed set of guidlines which are given [here](#guidlines). If you would like to contribute to the reviews then please read [this](#contributions).
 
@@ -25,7 +26,7 @@ This repository is a collection of short reviews of papers in Deep Learning. Rev
 |16|[Conservative Safety Critics For Exploration](https://arxiv.org/pdf/2010.14497.pdf)|Homanga Bharadhwaj, Aviral Kumar, Nicholas Rhinehart, Sergey Levine, Florian Shkurti, Animesh Garg|[link](https://github.com/karush17/Paper-Reviews/blob/master/Review-16/main.pdf)|[@karush17](https://github.com/karush17)|
 |17|[Mastering Atari with Discrete World Models](https://arxiv.org/pdf/2010.02193.pdf)|Danijar Hafner, Timothy Lillicrap, Mohammad Norouzi, Jimmy Ba|[link](https://github.com/karush17/Paper-Reviews/blob/master/Review-17/main.pdf)|[@karush17](https://github.com/karush17)|
 |18|[Weighted QMIX: Expanding Monotonic Value Function Factorisation for Deep Multi-Agent Reinforcement Learning](https://arxiv.org/pdf/2006.10800.pdf)|Tabish Rashid, Gregory Farquhar, Bei Peng, Shimon Whiteson|[link](https://github.com/karush17/Paper-Reviews/blob/master/Review-18/main.pdf)|[@karush17](https://github.com/karush17)|
-|19|[Continual Model-Based Reinforcement Learning with Hypernetworks](https://arxiv.org/pdf/2009.11997.pdf)|Yizhou Huang, Kevin Xie, Homanga Bharadhwaj, Florian Shkurti|[link](https://github.com/karush17/Paper-Reviews/blob/master/Review-19/main.pdf)|[@karush17](https://github.com/karush17)|
+|&#x1F534; 19|[Continual Model-Based Reinforcement Learning with Hypernetworks](https://arxiv.org/pdf/2009.11997.pdf)|Yizhou Huang, Kevin Xie, Homanga Bharadhwaj, Florian Shkurti|[link](https://github.com/karush17/Paper-Reviews/blob/master/Review-19/main.pdf)|[@karush17](https://github.com/karush17)|
 |20|[Model-Based Inverse Reinforcement Learning from Visual Demonstrations](https://arxiv.org/pdf/2010.09034.pdf)|Neha Das, Sarah Bechtle, Todor Davchev, Dinesh Jayaraman, Akshara Rai, Franziska Meier|[link](https://github.com/karush17/Paper-Reviews/blob/master/Review-20/main.pdf)|[@karush17](https://github.com/karush17)|
 |21|[THE ACT OF REMEMBERING: A STUDY IN PARTIALLY OBSERVABLE REINFORCEMENT LEARNING](https://arxiv.org/pdf/2010.01753.pdf)|Rodrigo Toro Icarte, Richard Valenzano, Toryn Q. Klassen, Phillip Christoffersen, Amir-massoud Farahmand, Sheila A. McIlraith|[link](https://github.com/karush17/Paper-Reviews/blob/master/Review-21/main.pdf)|[@karush17](https://github.com/karush17)|
 |22|[An Inductive Bias for Distances: Neural Nets that Respect the Triangle Inequality](https://arxiv.org/pdf/2002.05825.pdf)|Silviu Pitis, Harris Chan, Kiarash Jamali, Jimmy Ba|[link](https://github.com/karush17/Paper-Reviews/blob/master/Review-22/main.pdf)|[@karush17](https://github.com/karush17)|
@@ -37,7 +38,6 @@ This repository is a collection of short reviews of papers in Deep Learning. Rev
 |28|[RODE: LEARNING ROLES TO DECOMPOSE MULTI-AGENT TASKS](https://arxiv.org/pdf/2010.01523.pdf)|Tonghan Wang, Tarun Gupta, Anuj Mahajan, Bei Peng, Shimon Whiteson, Chongjie Zhang|[link](https://github.com/karush17/Paper-Reviews/blob/master/Review-28/main.pdf)|[@karush17](https://github.com/karush17)|
 |29|[Ridge Rider: Finding Diverse Solutions by Following Eigenvectors of the Hessian](https://arxiv.org/pdf/2011.06505.pdf)|Jack Parker-Holder, Luke Metz, Cinjon Resnick, Hengyuan Hu, Adam Lerer, Alistair Letcher,  Alex Peysakhovich, Aldo Pacchiano, Jakob Foerster|[link](https://github.com/karush17/Paper-Reviews/blob/master/Review-29/main.pdf)|[@karush17](https://github.com/karush17)|
 |30|[MAVEN: Multi-Agent Variational Exploration](https://arxiv.org/pdf/1910.07483.pdf)|Anuj Mahajan, Tabish Rashid, Mikayel Samvelyan, Shimon Whiteson|[link](https://github.com/karush17/Paper-Reviews/blob/master/Review-30/main.pdf)|[@karush17](https://github.com/karush17)|
-
 
 
 ## <a name="guidlines"></a>Review Guidlines
