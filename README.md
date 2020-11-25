@@ -38,6 +38,9 @@ This repository is a collection of short reviews of papers in Deep Learning. Rev
 |28|[γ-Models: Generative Temporal Difference Learning for Infinite-Horizon Prediction](https://arxiv.org/pdf/2010.14496.pdf)|Michael Janner, Igor Mordatch, Sergey Levine|[link](https://github.com/karush17/Paper-Reviews/blob/master/Review-28/main.pdf)|[@karush17](https://github.com/karush17)|
 |29|[ROMA: Multi-Agent Reinforcement Learning with Emergent Roles](https://arxiv.org/pdf/2003.08039.pdf)|Tonghan Wang, Heng Dong, Victor Lesser, Chongjie Zhang|[link](https://github.com/karush17/Paper-Reviews/blob/master/Review-29/main.pdf)|[@karush17](https://github.com/karush17)|
 |30|[Ridge Rider: Finding Diverse Solutions by Following Eigenvectors of the Hessian](https://arxiv.org/pdf/2011.06505.pdf)|Jack Parker-Holder, Luke Metz, Cinjon Resnick, Hengyuan Hu, Adam Lerer, Alistair Letcher,  Alex Peysakhovich, Aldo Pacchiano, Jakob Foerster|[link](https://github.com/karush17/Paper-Reviews/blob/master/Review-30/main.pdf)|[@karush17](https://github.com/karush17)|
+|31|[Generalized Hindsight for Reinforcement Learning](https://arxiv.org/pdf/2011.06505.pdf)|Alexander C. Li, Lerrel Pinto, Pieter Abbeel|[link](https://github.com/karush17/Paper-Reviews/blob/master/Review-31/main.pdf)|[@karush17](https://github.com/karush17)|
+|32|[Long-Horizon Visual Planning with Goal-Conditioned Hierarchical Predictors](https://arxiv.org/pdf/2011.06505.pdf)|Karl Pertsch, Oleh Rybkin, Frederik Ebert,
+Chelsea Finn, Dinesh Jayaraman, Sergey Levine|[link](https://github.com/karush17/Paper-Reviews/blob/master/Review-32/main.pdf)|[@karush17](https://github.com/karush17)|
 
 
 ## <a name="guidlines"></a>Review Guidlines
