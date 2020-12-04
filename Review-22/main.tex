@@ -1,0 +1,68 @@
+
+\documentclass[12pt,letterpaper]{article}
+\usepackage{fullpage}
+\usepackage[top=2cm, bottom=4.5cm, left=2.5cm, right=2.5cm]{geometry}
+\usepackage{amsmath,amsthm,amsfonts,amssymb,amscd}
+\usepackage{lastpage}
+\usepackage{enumerate}
+\usepackage{fancyhdr}
+\usepackage{mathrsfs}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{listings}
+\usepackage{hyperref}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{float}
+\hypersetup{%
+  colorlinks=true,
+  linkcolor=blue,
+  linkbordercolor={0 0 1}
+}
+\renewcommand\lstlistingname{Algorithm}
+\renewcommand\lstlistlistingname{Algorithms}
+\def\lstlistingautorefname{Alg.}
+
+\lstdefinestyle{Python}{
+    language        = Python,
+    frame           = lines, 
+    basicstyle      = \footnotesize,
+    keywordstyle    = \color{blue},
+    stringstyle     = \color{green},
+    commentstyle    = \color{red}\ttfamily
+}
+
+\setlength{\parindent}{0.0in}
+\setlength{\parskip}{0.05in}
+
+
+
+\pagestyle{fancyplain}
+\headheight 35pt
+                 % ENTER REVIEW NUMBER HERE %
+\chead{\textbf{\large Review-22}}
+           % ################################### %
+
+\lfoot{}
+\cfoot{}
+\rfoot{\small\thepage}
+\headsep 1.5em
+
+\begin{document}
+
+
+                 % ENTER PAPER TITLE HERE %
+\begin{center}
+  \large{The Act Of Remembering: A Study In Partially Observable Reinforcement Learning}
+\end{center}
+           % ################################### %
+
+Learning memoryless policies hinders Reinforcement Learning (RL) agents to demonstrate long-term suitable performance in partially-observable settings. Lack of information obtained from the environment necessitates the need for external memory. The work presents a study of why and when memoryless agents fail in partially-observable settings. To this end, the work throws light on theoretical aspects of meory utility and proposes a novel scheme which provides the agent with external memory. With sufficient expressivity of external memory, agent policies converge to globally optimal solutions and demonstrate suitable performance on long-term partially-observable scenarios. 
+
+Requirement of external memory in partially-observable setting sis highlighted upon examining the lack of retrieval of long-term information by the agent. The proposed schemes (O\textit{k} and OA\textit{k}) present the agent with external memory which results in a meory-augmented environment. In contrast to using conventional memroy-based methods, O\textit{k} and OA\textit{k} memor modules combine the memory information with state of the agent and expand its action space respectively. This allows the agent to learn an efficient memoryless policy which only does not rely on internal memory mechanisms. O\textit{k} and OA\textit{k} memory modules are a generalization of k-order memory schemes which are buffers of fixed $k$-size bits. While $k$-order memories do not allow storage of information beyond $k$-steps, O\textit{k} memories address this problem by allowing the agent to select whether to push the experience in memory or not.
+
+In comparison to contemporary memory modules, O\textit{k} and OA\textit{k} memories demonstrate suitable performance on a suite of partially-observable tasks. Additionally, generalization of memory modules to variable RL schemes such as multi-step actor-critic, TD methods, Sarsa($\lambda$) and DDQN demonstrate their potential for practical utilization. However, the study presents two main caveats with respect to its analysis. Experiments demonstrate the suitability of O\textit{k} and OA\textit{k} for various different values of $k$ steps. The study does not provide insights on a suitable value of $k$ or a general selection criterion which would aid in further understanding when O\textit{k} and OA\textit{k} memories may not be sufficient. Lastly, realizing memory modules is sufficient for small-scale navigation tasks but may not necessarily scale to large-scale partially-observable settings. The work does not throw light on large-scale scenarios consisting of significant partial-observability. A consistent evaluation scheme for assessing the agent with variable degrees of observability may yield insights into the hindrances faced by agent. 
+
+
+
+\end{document}
