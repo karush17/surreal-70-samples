@@ -13,12 +13,12 @@ INPUT k:/texlive/2020/texmf-dist/tex/latex/base/article.cls
 INPUT k:/texlive/2020/texmf-dist/tex/latex/base/article.cls
 INPUT k:/texlive/2020/texmf-dist/tex/latex/base/article.cls
 INPUT k:/texlive/2020/texmf-dist/tex/latex/base/article.cls
-INPUT k:/texlive/2020/texmf-dist/tex/latex/base/size12.clo
-INPUT k:/texlive/2020/texmf-dist/tex/latex/base/size12.clo
-INPUT k:/texlive/2020/texmf-dist/tex/latex/base/size12.clo
-INPUT k:/texlive/2020/texmf-dist/tex/latex/base/size12.clo
+INPUT k:/texlive/2020/texmf-dist/tex/latex/base/size11.clo
+INPUT k:/texlive/2020/texmf-dist/tex/latex/base/size11.clo
+INPUT k:/texlive/2020/texmf-dist/tex/latex/base/size11.clo
+INPUT k:/texlive/2020/texmf-dist/tex/latex/base/size11.clo
 INPUT k:/texlive/2020/texmf-dist/fonts/map/fontname/texfonts.map
-INPUT k:/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
+INPUT k:/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
 INPUT k:/texlive/2020/texmf-dist/tex/latex/preprint/fullpage.sty
 INPUT k:/texlive/2020/texmf-dist/tex/latex/preprint/fullpage.sty
 INPUT k:/texlive/2020/texmf-dist/tex/latex/preprint/fullpage.sty
@@ -551,10 +551,10 @@ INPUT c:/Users/Karush Suri/Desktop/Paper Reviews/Review-22/main.out
 OUTPUT c:/Users/Karush Suri/Desktop/Paper Reviews/Review-22/main.out
 OUTPUT c:/Users/Karush Suri/Desktop/Paper Reviews/Review-22/main.pdf
 INPUT k:/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
-INPUT k:/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmti12.tfm
+INPUT k:/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmti10.tfm
 INPUT k:/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
 INPUT k:/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmr6.tfm
-INPUT k:/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
+INPUT k:/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm
 INPUT k:/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm
 INPUT k:/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm
 INPUT k:/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
@@ -584,16 +584,15 @@ INPUT k:/texlive/2020/texmf-dist/tex/latex/jknapltx/ursfs.fd
 INPUT k:/texlive/2020/texmf-dist/fonts/tfm/public/rsfs/rsfs10.tfm
 INPUT k:/texlive/2020/texmf-dist/fonts/tfm/public/rsfs/rsfs10.tfm
 INPUT k:/texlive/2020/texmf-dist/fonts/tfm/public/rsfs/rsfs5.tfm
-INPUT k:/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmsl12.tfm
+INPUT k:/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmsl10.tfm
+INPUT k:/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
 INPUT k:/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
-INPUT k:/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
-INPUT k:/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
 INPUT k:/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 INPUT c:/Users/Karush Suri/Desktop/Paper Reviews/Review-22/main.aux
 INPUT c:/Users/Karush Suri/Desktop/Paper Reviews/Review-22/main.out
 INPUT c:/Users/Karush Suri/Desktop/Paper Reviews/Review-22/main.out
 INPUT k:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
-INPUT k:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb
+INPUT k:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
 INPUT k:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
 INPUT k:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb
-INPUT k:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb
+INPUT k:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb
