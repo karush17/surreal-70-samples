@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.10.7)  20 DEC 2020 14:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.10.7)  20 DEC 2020 15:02
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -437,27 +437,27 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 LaTeX Font Info:    Trying to load font information for U+rsfs on input line 56.
  (k:/texlive/2020/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
-) [1{k:/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
-
-] 
+) 
 AED: lastpage setting LastPage
-[2] (c:/Users/Karush Suri/Desktop/Paper Reviews/Rerview-28/main.aux)
+[1{k:/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+
+] (c:/Users/Karush Suri/Desktop/Paper Reviews/Rerview-28/main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 10082 strings out of 479916
- 152367 string characters out of 5886642
- 472423 words of memory out of 5000000
+ 10081 strings out of 479916
+ 152361 string characters out of 5886642
+ 473423 words of memory out of 5000000
  26487 multiletter control sequences out of 15000+600000
  542908 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,11n,66p,1298b,325s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,11n,66p,1242b,325s stack positions out of 5000i,500n,10000p,200000b,80000s
 <k:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><k:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><k:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><k:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><k:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-Output written on "c:/Users/Karush Suri/Desktop/Paper Reviews/Rerview-28/main.pdf" (2 pages, 60021 bytes).
+Output written on "c:/Users/Karush Suri/Desktop/Paper Reviews/Rerview-28/main.pdf" (1 page, 59412 bytes).
 PDF statistics:
- 37 PDF objects out of 1000 (max. 8388607)
- 27 compressed objects within 1 object stream
- 3 named destinations out of 1000 (max. 500000)
+ 33 PDF objects out of 1000 (max. 8388607)
+ 24 compressed objects within 1 object stream
+ 2 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
