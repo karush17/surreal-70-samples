@@ -1,0 +1,67 @@
+
+\documentclass[11pt,letterpaper]{article}
+\usepackage{fullpage}
+\usepackage[top=2cm, bottom=4.5cm, left=2.5cm, right=2.5cm]{geometry}
+\usepackage{amsmath,amsthm,amsfonts,amssymb,amscd}
+\usepackage{lastpage}
+\usepackage{enumerate}
+\usepackage{fancyhdr}
+\usepackage{mathrsfs}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{listings}
+\usepackage{hyperref}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{float}
+\hypersetup{%
+  colorlinks=true,
+  linkcolor=blue,
+  linkbordercolor={0 0 1}
+}
+\renewcommand\lstlistingname{Algorithm}
+\renewcommand\lstlistlistingname{Algorithms}
+\def\lstlistingautorefname{Alg.}
+
+\lstdefinestyle{Python}{
+    language        = Python,
+    frame           = lines, 
+    basicstyle      = \footnotesize,
+    keywordstyle    = \color{blue},
+    stringstyle     = \color{green},
+    commentstyle    = \color{red}\ttfamily
+}
+
+\setlength{\parindent}{0.0in}
+\setlength{\parskip}{0.05in}
+
+
+
+\pagestyle{fancyplain}
+\headheight 35pt
+                 % ENTER REVIEW NUMBER HERE %
+\chead{\textbf{\large Review-28}}
+           % ################################### %
+
+\lfoot{}
+\cfoot{}
+\rfoot{\small\thepage}
+\headsep 1.5em
+
+\begin{document}
+
+
+                 % ENTER PAPER TITLE HERE %
+\begin{center}
+  \large{$\gamma$-Models: Generative Temporal Difference Learning for Infinite-Horizon Prediction}
+\end{center}
+           % ################################### %
+ Compounding errrors in model predictions steer the agent away from the path towards optimal behavior. These errors are further alleviated by the choice of the horizon length which is suitably dealt with using a value function. To this end, the work presents $\gamma$-models which provide an infinite probabilistic horizon to the agent. $\gamma$-model is trained using a generative temporal difference learning analogous to successor representations. $\gamma$-models interpolate between a value function to store information about the future and predictive model to be independeent of task rewards. Models are instantiated as adversarial networks and normalizing flows depending on the presence of density evaluation. 
+
+ $\gamma$-models facilitate infinite horizon prediction which serves constant-time prediction as generalized rollouts primary advantages. The $\gamma$-model constructs an off-policy framework for training generative models using temporal difference learning. The taget distribution is a weighted combination of single-step distribution and model bootstrap which represent the distribution at immediate next timestep and overall subsequent timesteps respectively. This mixture is reminiscient of a temporal diference target value. Training of the model is carried under two different scenarios, when the model permits sampling and when the model permits density evaluation. In the case of sampling, model is trained as a generative adversarial network minimizing the bootstraped $f$-divergence. In the case of density evaluation, the model is trained as normalizing flows which regresses to the constructed target density values. Training motivates the application of $\gamma$-models for carrying rollouts which depend on reweighting $\gamma$ for appropriate model rollout lengths. Utilization $\gamma$-models for value expansion further leads to the $\gamma$-MVE estimator which trades away the necessity for finite step rollouts. 
+
+Suitability of $\gamma$-model trained using a generative scheme is validated upon observing the learned distributions from normalization flows on acrobot and pendulum tasks. Furthermore,m $\gamma$-models accurately represent the value map of tasks and yield improved performance on the evaluated benchmarks. While, the $\gamma$-model provides a theoretically rich connection to successor representations, the work empirical insights towards this theory. This leaves the role of $\gamma$-models as continuous successor features an open problem. Furthermore, the the $\gamma$-model is found suitable only for low dimensional tasks wherein the agent is not significantly impacted by compounding errors. It would be interesting to evaluate the model on high dimensional feature spaces consisting of pixel inputs and larger propioceptive state spaces. 
+
+
+
+\end{document}
