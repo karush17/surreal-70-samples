@@ -64,6 +64,6 @@ Suitability of $\gamma$-model trained using a generative scheme is validated upo
 
 Training of models using generative temporal difference learning provides a significanlty novel direction for future work. The model-based setup may be extended towards other generative techniques such as autoregressive flows which provide a temporal connection to sequential decision-making. Furthermore, the use of $\gamma$-MVE as an estimator can be explored in scenarios consistig of high dimensonal inputs and action spaces wherein compounding errors are a significant problem. 
 
-
+The need for ana accurate model is essential in order to sufficiently tackle compounding errors in state predictions. The work presents $\gamma$-models which provide an infinite probabilistic horizon of prediction using generative temporal differrence learning. $\gamma$-model incorporates characteristics of a value function by containing information about future, and that of a predictive model by being independent of task rewards. This motivates generalization of the scheme as a model and values estimator without the requirement of fixed horizon lenths, The model is trained using adversarial learning and as normalizating flows depending on the provision of density evaluation. Suitable distributions and values learnt by the model improve the performance of control agents in the evaluated benchmarks.
 
 \end{document}
