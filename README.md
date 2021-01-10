@@ -43,7 +43,8 @@ This repository is a collection of short reviews of papers in Deep Learning. Rev
 |33|[Variational Policy Gradient Method for Reinforcement Learning with General Utilities](https://arxiv.org/pdf/2007.02151.pdf)|Junyu Zhang, Alec Koppel, Amrit Singh Bedi, Csaba Szepesvari, Mengdi Wang|[link](https://github.com/karush17/Paper-Reviews/blob/master/Review-33/main.pdf)|[@karush17](https://github.com/karush17)|
 |34|[The Value-Improvement Path Towards Better Representations for Reinforcement Learning](https://arxiv.org/pdf/2006.02243.pdf)|Will Dabney, Andre Barreto, Mark Rowland, Robert Dadashi, John Quan, Marc G. Bellemare, David Silver|[link](https://github.com/karush17/Paper-Reviews/blob/master/Review-34/main.pdf)|[@karush17](https://github.com/karush17)|
 |35|[Fictitious Self-Play in Extensive-Form Games](http://proceedings.mlr.press/v37/heinrich15.pdf)|Johannes Heinrich, Marc Lanctot, David Silver|[link](https://github.com/karush17/Paper-Reviews/blob/master/Review-35/main.pdf)|[@karush17](https://github.com/karush17)|
-|&#x1F534;36|[Expected Eligibility Traces](https://arxiv.org/pdf/2007.01839.pdf)|Hado van Hasselt, Sephora Madjiheurem, Matteo Hessel, David Silver, André Barreto, Diana Borsa|[link](https://github.com/karush17/Paper-Reviews/blob/master/Review-36/main.pdf)|[@karush17](https://github.com/karush17)|
+|36|[Expected Eligibility Traces](https://arxiv.org/pdf/2007.01839.pdf)|Hado van Hasselt, Sephora Madjiheurem, Matteo Hessel, David Silver, André Barreto, Diana Borsa|[link](https://github.com/karush17/Paper-Reviews/blob/master/Review-36/main.pdf)|[@karush17](https://github.com/karush17)|
+|&#x1F534;37|[Deep Boltzmann Machines](http://proceedings.mlr.press/v5/salakhutdinov09a/salakhutdinov09a.pdf)|Ruslan Salakhutdinov, Geoffrey Hinton|[link](https://github.com/karush17/Paper-Reviews/blob/master/Review-37/main.pdf)|[@karush17](https://github.com/karush17)|
 
 
 ## <a name="guidlines"></a>Review Guidlines
