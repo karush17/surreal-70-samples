@@ -45,7 +45,7 @@ This repository is a collection of short reviews of papers in Deep Learning. Rev
 |35|[Fictitious Self-Play in Extensive-Form Games](http://proceedings.mlr.press/v37/heinrich15.pdf)|Johannes Heinrich, Marc Lanctot, David Silver|[link](https://github.com/karush17/Paper-Reviews/blob/master/Review-35/main.pdf)|[@karush17](https://github.com/karush17)|
 |36|[Expected Eligibility Traces](https://arxiv.org/pdf/2007.01839.pdf)|Hado van Hasselt, Sephora Madjiheurem, Matteo Hessel, David Silver, André Barreto, Diana Borsa|[link](https://github.com/karush17/Paper-Reviews/blob/master/Review-36/main.pdf)|[@karush17](https://github.com/karush17)|
 |37|[Transfer in Deep Reinforcement Learning Using Successor Features and Generalised Policy Improvement](https://arxiv.org/pdf/1901.10964.pdf)|Andre Barreto, Diana Borsa, John Quan, Tom Schaul, David Silver, Matteo Hessel, Daniel Mankowitz, Augustin Zıdek, Remi Munos|[link](https://github.com/karush17/Paper-Reviews/blob/master/Review-37/main.pdf)|[@karush17](https://github.com/karush17)|
-|38|[A Theoretical and Empirical Analysis of Expected Sarsa](http://www.cs.ox.ac.uk/people/shimon.whiteson/pubs/vanseijenadprl09.pdf)|Harm van Seijen, Hado van Hasselt, Shimon Whiteson and Marco Wiering|[link](https://github.com/karush17/Paper-Reviews/blob/master/Review-38/main.pdf)|[@karush17](https://github.com/karush17)|
+<!-- |38|[A Theoretical and Empirical Analysis of Expected Sarsa](http://www.cs.ox.ac.uk/people/shimon.whiteson/pubs/vanseijenadprl09.pdf)|Harm van Seijen, Hado van Hasselt, Shimon Whiteson and Marco Wiering|[link](https://github.com/karush17/Paper-Reviews/blob/master/Review-38/main.pdf)|[@karush17](https://github.com/karush17)| -->
 
 
 ## <a name="guidlines"></a>Review Guidlines
