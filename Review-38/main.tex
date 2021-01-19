@@ -65,5 +65,6 @@ Empirically, Expected Sarsa presents monotonically increasing performance for hi
 
 Expected Sarsa demonstrates suitable convergence guarantees in comparison to Sarsa and empirical performance equivalent to Q-learning. The TD scheme can be further extended towards backward-view updates such as TD($\lambda$) which would throw light on future variants of Sarsa. Furthermore, the scheme can be further stabilized on the lines of double Q-learning by keeping track of dual value estimates in the case of function approximation. 
 
+TD methods such as Sarsa and Q-learning present high variance and slower learning as a result of stochastic $Q$-value estimates. In light of these limitations, the work explores Expected Sarsa, a stable variant of Sarsa which utilizes knowledge about stochasticity of actions by weighing them under the current policy. Expected Sarsa, similar to Sarsa, presents suitable convergence guarantees in the limit of infinite exploration. The scheme demonstrates empirical performance equivalent to Q-learning on a variety of evaluated tasks. 
 
 \end{document}
