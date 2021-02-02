@@ -63,4 +63,8 @@ NDPs aim to answer the pivotal question of \textit{whether a dynamical system ca
 
 NDPs, when combined with PPO, demonstrate sample-efficient learning in comparison to strong baselines including the multi-action critic architecture for PPO. Corresponidng to both imitation and reinforcement learning, NDPs present higher task success rates and improved quality of trajectories depicted on the digital writing task. Additionally, the work provides a rigorous ablation study of NDP's components and its variation with different parameter values which demonstrate suitability of the proposed method. However, the experimental setup demonstrates a few caveats which may be further improved. Firstly, the work does not compare NDPs to strong baselines such as TD3 and SAC which present state-of-the-art performance. This leaves the adaptation of dynamical systems in policies an open question from the perspective of improved performance. Secondly, NDPs do not sufficiently present scalability to high-dimensional action spaces, the motivating problem for this work. A better experiment design would consist of evaluating NDPs on tasks such as Humanoid which present a larger number of action configurations. 
 
+Introduction of dynamical structure in agent's policy provides new avenues for future work. The work may be further extended towards pixel-based inputs which present higher-dimensional state spaces and a challenging scenario for learning. Additionally, NDPs can be further studied in the model-based setting wherein the dynamical system can be embedded in the dynamics model for fewer sampling of states. 
+
+
+
 \end{document}
