@@ -50,8 +50,7 @@ This repository is a collection of short reviews of papers in Deep Learning. Rev
 |41|[Learning By Cheating](https://arxiv.org/pdf/1912.12294.pdf)|Dian Chen, Brady Zhou, Vladlen Koltun, Philipp Krähenbühl|[link](Reviews/Review-41/main.pdf)|[@karush17](https://github.com/karush17)|
 |42|[Your Classifier Is Secretly An Energy based Model Aand You Should Treat It Like One](https://arxiv.org/pdf/1912.03263.pdf)|Will Grathwohl, Kuan-Chieh Wang, Jorn-Henrik Jacobsen, David Duvenaud, Kevin Swersky, Mohammad Norouzi|[link](Reviews/Review-42/main.pdf)|[@karush17](https://github.com/karush17)|
 |43|[No MCMC for me: Amortized sampling for fast and stable training of energy-based models](https://arxiv.org/pdf/2010.04230.pdf)|Will Grathwohl, Jacob Kelly, Milad Hashemi, David Duvenaud, Mohammad Norouzi, Kevin Swersky|[link](Reviews/Review-43/main.pdf)|[@karush17](https://github.com/karush17)|
-<!-- |44|[EMaQ: Expected-Max Q-Learning Operator for Simple Yet Effective Offline and Online RL](https://arxiv.org/pdf/2007.11091.pdf)|Seyed Kamyar Seyed Ghasemipour, Dale Schuurmans, Shixiang Shane Gu|[link](Reviews/Review-44/main.pdf)|[@karush17](https://github.com/karush17)|
-|45|[Eligibility Traces for Off-Policy Policy Evaluation](https://scholarworks.umass.edu/cgi/viewcontent.cgi?article=1079&context=cs_faculty_pubs)|Doina Precup, Richard S. Sutton, Satinder Singh|[link](Reviews/Review-45/main.pdf)|[@karush17](https://github.com/karush17)| -->
+|44|[Implicit Autoencoders](https://arxiv.org/pdf/1805.09804.pdf)|Alireza Makhzani|[link](Reviews/Review-44/main.pdf)|[@karush17](https://github.com/karush17)|
 
 
 ## <a name="guidlines"></a>Review Guidlines
