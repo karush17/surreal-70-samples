@@ -52,6 +52,7 @@ This repository is a collection of short reviews of papers in Deep Learning. Rev
 |43|[No MCMC for me: Amortized sampling for fast and stable training of energy-based models](https://arxiv.org/pdf/2010.04230.pdf)|Will Grathwohl, Jacob Kelly, Milad Hashemi, David Duvenaud, Mohammad Norouzi, Kevin Swersky|[link](Reviews/Review-43/main.pdf)|[@karush17](https://github.com/karush17)|
 |44|[Implicit Autoencoders](https://arxiv.org/pdf/1805.09804.pdf)|Alireza Makhzani|[link](Reviews/Review-44/main.pdf)|[@karush17](https://github.com/karush17)|
 |45|[Neural Ordinary Differential Equations](https://arxiv.org/pdf/1806.07366.pdf)|Ricky T. Q. Chen, Yulia Rubanova, Jesse Bettencourt, David Duvenaud|[link](Reviews/Review-45/main.pdf)|[@karush17](https://github.com/karush17)|
+|46|[Scene Representation Networks: Continuous 3D-Structure-Aware Neural Scene Representations](https://arxiv.org/pdf/1906.01618.pdf)|Vincent Sitzmann, Michael Zollhöfer, Gordon Wetzstein|[link](Reviews/Review-46/main.pdf)|[@karush17](https://github.com/karush17)|
 
 
 ## <a name="guidlines"></a>Review Guidlines
