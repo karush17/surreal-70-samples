@@ -64,5 +64,9 @@ The SRN structure relies on the mapping of world coordinates to local feature re
 
 SRNs demonstrate suitable generation of novel views and reconstructions of prior scenes in comparison to prior representation methods. For instance, generated objects have sharp edges and appropriate geometry which is learnt implicitly without supervision. Additionally, the latent codes learnt by SRNs present a smooth transition depicting suitable interpolation of geometry and unsupervised representations. While SRNs are presenta novel viewpoint towards geometric deep learning and implicit representations of scenes, their formulation may be improved towards their components. Firstly, the per-pixel generator does not make use of convolutions and build a feature representation for each pixel. This hinders scalability of the scheme towards high-resolution scenes which consist of intricate details of objects and multi-view geometry. Secondly, the work aptly notes a limitation of ray marching algorithm. The algorithm gets stuck in cases of occluded portions of objects or pores on surfaces. This restricts the neural renderer to correctly generate complex objects such as chairs and tables consisting of 3D occluders. 
 
+SRNs present two novel directions for future research. Firstly, SRNs motivate the implicit learning of geometry which can be extended towards sophisticated architectures and rom-scale scenes. Secondly, the use of a differentiable ray-marching algorithm presents the challenging problem of occluder marching. A potential solution to this end could be to encode parts of objects from different viewpoints and reconstruct them based on a likelihood function. 
+
+
+
 
 \end{document}
