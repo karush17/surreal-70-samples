@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.10.7)  22 OCT 2020 12:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.10.7)  13 MAR 2021 10:36
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Users/Karush Suri/Desktop/Paper Reviews/template/main.tex"
-(c:/Users/Karush Suri/Desktop/Paper Reviews/template/main.tex
+**"c:/Users/Karush Suri/Desktop/Paper-Reviews/Reviews/Review-47/main.tex"
+(c:/Users/Karush Suri/Desktop/Paper-Reviews/Reviews/Review-47/main.tex
 LaTeX2e <2020-10-01>
 L3 programming layer <2020-10-05> xparse <2020-03-03> (k:/texlive/2020/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
@@ -329,7 +329,7 @@ Package hyperref Info: Option `colorlinks' set `true' on input line 21.
 File: l3backend-pdftex.def 2020-09-24 L3 backend support: PDF output (pdfTeX)
 \l__kernel_color_stack_int=\count287
 \l__pdf_internal_box=\box53
-) (c:/Users/Karush Suri/Desktop/Paper Reviews/template/main.aux)
+) (c:/Users/Karush Suri/Desktop/Paper-Reviews/Reviews/Review-47/main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 51.
@@ -419,34 +419,45 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 51.
 LaTeX Info: Redefining \pageref on input line 51.
 LaTeX Info: Redefining \nameref on input line 51.
- (c:/Users/Karush Suri/Desktop/Paper Reviews/template/main.out) (c:/Users/Karush Suri/Desktop/Paper Reviews/template/main.out)
+ (c:/Users/Karush Suri/Desktop/Paper-Reviews/Reviews/Review-47/main.out) (c:/Users/Karush Suri/Desktop/Paper-Reviews/Reviews/Review-47/main.out)
 \@outlinefile=\write3
 \openout3 = `main.out'.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: End \AtBeginDocument code.
- 
+LaTeX Font Info:    Trying to load font information for U+msa on input line 62.
+ (k:/texlive/2020/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 62.
+ (k:/texlive/2020/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 62.
+ (k:/texlive/2020/texmf-dist/tex/latex/jknapltx/ursfs.fd
+File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
+) 
 AED: lastpage setting LastPage
 [1{k:/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
-] (c:/Users/Karush Suri/Desktop/Paper Reviews/template/main.aux)
+] (c:/Users/Karush Suri/Desktop/Paper-Reviews/Reviews/Review-47/main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 10019 strings out of 479916
- 151362 string characters out of 5886642
- 463422 words of memory out of 5000000
- 26449 multiletter control sequences out of 15000+600000
- 536654 words of font info for 34 fonts, out of 8000000 for 9000
+ 10076 strings out of 479916
+ 152388 string characters out of 5886642
+ 471423 words of memory out of 5000000
+ 26482 multiletter control sequences out of 15000+600000
+ 541842 words of font info for 55 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,11n,66p,294b,325s stack positions out of 5000i,500n,10000p,200000b,80000s
-<k:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><k:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><k:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-Output written on "c:/Users/Karush Suri/Desktop/Paper Reviews/template/main.pdf" (1 page, 30147 bytes).
+ 60i,11n,66p,1591b,325s stack positions out of 5000i,500n,10000p,200000b,80000s
+<k:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><k:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><k:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><k:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><k:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><k:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on "c:/Users/Karush Suri/Desktop/Paper-Reviews/Reviews/Review-47/main.pdf" (1 page, 69102 bytes).
 PDF statistics:
- 25 PDF objects out of 1000 (max. 8388607)
- 18 compressed objects within 1 object stream
+ 37 PDF objects out of 1000 (max. 8388607)
+ 27 compressed objects within 1 object stream
  2 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
