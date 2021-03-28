@@ -57,7 +57,7 @@ This repository is a collection of short summaries of papers in Deep Learning. S
 |46|[Scene Representation Networks: Continuous 3D-Structure-Aware Neural Scene Representations](https://arxiv.org/pdf/1906.01618.pdf)|Vincent Sitzmann, Michael Zollhöfer, Gordon Wetzstein|[link](Reviews/Review-46/main.pdf)|
 |47|[PixelGAN Autoencoders](https://arxiv.org/pdf/1706.00531.pdf)|Alireza Makhzani, Brendan Frey|[link](Reviews/Review-47/main.pdf)|
 |48|[Density Estimation using Real NVP](https://arxiv.org/pdf/1605.08803.pdf)|Laurent Dinh, Jascha Sohl-Dickstein, Samy Bengio|[link](Reviews/Review-48/main.pdf)|
-|49|[NICE: Non-linear Independent Components Estimation](https://arxiv.org/pdf/1410.8516.pdf)|Laurent Dinh,David Krueger,Yoshua Bengi|[link](Reviews/Review-49/main.pdf)|
+|49|[NICE: Non-linear Independent Components Estimation](https://arxiv.org/pdf/1410.8516.pdf)|Laurent Dinh,David Krueger,Yoshua Bengio|[link](Reviews/Review-49/main.pdf)|
 
 
 ## <a name="guidlines"></a>Summary Guidlines
