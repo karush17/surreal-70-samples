@@ -1,4 +1,4 @@
-# Paper Summaries
+# mini-arXiv
 
 <p align="center"><img src="imgs/logo.PNG" height="200px" width="500px" /></p>
 
