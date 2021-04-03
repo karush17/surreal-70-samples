@@ -40,7 +40,7 @@
 \pagestyle{fancyplain}
 \headheight 35pt
                  % ENTER REVIEW NUMBER HERE %
-\chead{\textbf{\large Review-1}}
+\chead{\textbf{\large Review-50}}
            % ################################### %
 
 \lfoot{}
@@ -53,12 +53,16 @@
 
                  % ENTER PAPER TITLE HERE %
 \begin{center}
-  \large{Paper Title}
+  \large{Augmenting Physical Models with Deep Networks for Complex Dynamics Forecasting}
 \end{center}
            % ################################### %
 
+Accurate prediction and forecasting of dynamical processes under partial knowledge is a challenging problem. Data-driven approaches often result in insufficient context and non-negligible errors. To address these challenges, the work introduces a principled approach for augmenting incomplete physical dynamics governed by differential equations with deep data-driven models. The novel APHYNITY framework decomposes dynamics into a physical component with prior knowledge, and a data-driven component with accounting for errors in the model. The learning problem aims to utilize the data-driven component for capturing information which is absent in the physical model. The decomposition results in unique set formulations leading to interpretability and generalization.
+
+The APHYNITY framework augments incomplete physical models for indentification and forecasting of unknown dynamics. Dynamics corresponding to a system are decomposed into two components: a physical component $F_{p}$ which accounts for prior knowledge, and a data-driven component $F_{a}$ which accounts for model errors. In order to utilize the data-driven dynamics for only capturing information which is absent in the physical model, a general-purpose optimization objective is constructed which minimizes the contribution of $F_{a}$ constrained on the decomposed dynamics. APHYNITY leverages model-based knowledge by augmenting it using neurally paramterized dynamics. The decomposition results in a unique formulation by virtue of Chebyshev sets. This provisions interpretability and generalization with respect to each of model's components. Upon utilizing deep neural networks as parametric decompositions, the work introduces an adaptive constrained optimization method. Optimization introduces an increasing sequence of Lagrange multipliers $\lambda_{j}$ such that the successive minima converge to a solution. Iterates are optimized using gradient descent.
+
+The APHYNITY framework, when evaluated on 3 diverse differential equation processes, demonstrates improved performance and reduced error rates in comparison to prior neural differential equation and parameteric prediction methods. Additionally, the framework is found consistent across cmplete and incomplete physics dataset highlighting generalization in complex scenarios. Qualitative comparison of predictions and ablations further highlight the efficacy of decomposition under varying dynamics. On the other hand, the framework could be further improved with regards to its decomposition design. Minimizing the data-driven contribution $F_{a}$ may result in inaccurate predictions wherein the physics model is complete but inaccurate. Sampling from the model may potentially result in challenging trajectories. To this end, the question which remains unanswered is \textit{what other decompositions could be utilized to address the limitations of model and data jointly?}
 
 
-Your review goes here.
 
 \end{document}
