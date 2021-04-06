@@ -1,0 +1,68 @@
+
+\documentclass[11pt,letterpaper]{article}
+\usepackage{fullpage}
+\usepackage[top=2cm, bottom=4.5cm, left=2.5cm, right=2.5cm]{geometry}
+\usepackage{amsmath,amsthm,amsfonts,amssymb,amscd}
+\usepackage{lastpage}
+\usepackage{enumerate}
+\usepackage{fancyhdr}
+\usepackage{mathrsfs}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{listings}
+\usepackage{hyperref}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{float}
+\hypersetup{%
+  colorlinks=true,
+  linkcolor=green,
+  linkbordercolor={0 0 1}
+}
+\renewcommand\lstlistingname{Algorithm}
+\renewcommand\lstlistlistingname{Algorithms}
+\def\lstlistingautorefname{Alg.}
+
+\lstdefinestyle{Python}{
+    language        = Python,
+    frame           = lines, 
+    basicstyle      = \footnotesize,
+    keywordstyle    = \color{blue},
+    stringstyle     = \color{green},
+    commentstyle    = \color{red}\ttfamily
+}
+
+\setlength{\parindent}{0.0in}
+\setlength{\parskip}{0.05in}
+
+\DeclareMathOperator*{\unif}{Unif}
+
+\pagestyle{fancyplain}
+\headheight 35pt
+                 % ENTER REVIEW NUMBER HERE %
+\chead{\textbf{\large Review-51}}
+           % ################################### %
+
+\lfoot{}
+\cfoot{}
+\rfoot{\small\thepage}
+\headsep 1.5em
+
+\begin{document}
+
+                 % ENTER PAPER TITLE HERE %
+\begin{center}
+  \large{Conservative Q-Learning for Offline Reinforcement Learning}
+\end{center}
+           % ################################### %
+
+
+Offline Reinforcement Learning (RL) presents potential for learning efficacious policies from prior behavioral transitions as static datasets. Practical application of offline RL, on the other hand, undermines this potential in light of overestimated values which are a consequence of the distributional shift between agent and dataset policies. A suitable alternative to tackle overestimation is learning conservative Q values. Towards this goal, the work introduces \textit{Conservative Q Learning (CQL)} which presents a family of Q functions with their expected values under the policy lower bounding true Q values. CQL produces a theoretical lower bound on the value of agent policies with the policy learning procedure leading to safe policy improvement. The CQL framework provisions a Bellman error objective regularized with behavioral Q values trading off overestimation with conservatism. On a range of challenging continuous and discrete control tasks, CQL agents outperform existing offline RL methods with the former validating its theoretical insights.
+
+Conventional offline RL methods erroneously bootstrap out-of-distribution (OOD) actions resulting in overfitting. This motivates one to learn \textit{conservative} estimates which address overestimation of the value function. The work introduces CQL framework which carries out conservative off-policy evaluation. CQL regularizes the Bellman objective utilizing the expected Q values $\mathbb{E}_{s \sim \mathcal{D},a \sim \hat{\pi}_{\beta}}[Q(s,a)]$ under the behavior policy $\hat{\pi}_{\beta}$. This results in an expected lower bound $\mathbb{E}_{\pi(a|s)}[\hat{Q}^{\pi}(s,a)] \leq V^{\pi}(s)$ under the current policy $\pi(a|s) = \mu(a|s)$. The estimated Q value $\hat{Q}^{\pi}$ may not be a pointwise lower bound on $Q^{\pi}$ due to potential overestimations under behavior policy $\hat{\pi}_{\beta}$. CQL, through the lens of online learning, learns $\mu(a|s)$ which gives rise to an optimization procedure CQL($\mathcal{R}$) with the regularization $\mathcal{R}(\mu)$. For the regularization $\mathcal{R}(\mu) = -D_{KL}(\mu,\rho)$ as the KL-divergence with a prior $\rho(a|s)$, the objective reduces to CQL($\mathcal{H}$).
+
+CQL agents, while utilizing CQL($\mathcal{H}$) objective, demonstrate improved performance in comparison to prior offline RL methods on the D4RL benchmark. In the case of more challenging tasks such as high-dimensional action spaces and trajectory composition with sparse rewards, CQL($\mathcal{H}$) and CQL($\rho$) stand out as the only methods with non-zero returns. A similar trend is observed on 3 out of 4 Atari games with CQL($\mathcal{H}$) obtaining higher returns. In addition, experiments validate the theoretical claims of conservative estimates. CQL($\mathcal{H}$) presents negative differences between predicted and true policy values denoting conservatism in comparison to overestimations for prior offline RL and Q ensemble methods. Furthermore, ablation studies carried out on variants of CQL and Lagrange formulations demonstrate suitability of design choices.
+
+Learning of conservative value estimates addresses overestimation and distributional shift. However, the CQL framework presents 3 caveats which lay out potential directions for further research. (1) While a conservative objective imposes a lower bound on Q function, it implicitly shifts the resulting values away from the optimal values $Q^{*}$. This leads to an increase in the sub-optimality gap from $Q^{*} - Q$ for true $Q$ values to $Q^{*} - \hat{Q}^{k}$ for lower bounded $\hat{Q}^{k}$ values. Reduction of this gap drives the agent to the path of optimality and remains an open question for future work. (2) CQL($\mathcal{H}$) utilizes log-sum-exp as the soft-maximum over Q values which presents restrictions on sampling. The current formulation constructs auxilary importance sampling and uniform-at-random sampling techniques which induce variance in estimates. A potential alternative to alleviate sampling errors could make use of tractable approximations. (3) Theoretical validation of CQL($\mathcal{H}$) and CQL($\rho$) as underestimating iterative procedures remain an open question. Since CQL($\mathcal{H}$) empirically presents conservatism, it is natural to investigate a theoretical claim in its support.
+
+\end{document}
