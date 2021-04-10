@@ -63,6 +63,8 @@ Perceiver utilizes Transformers as latent units to form an attention bottleneck.
 
 The Perceiver architecture demonstrates generalization on vision, audio, point-cloud and audio+video. Perceiver is found competitive to ResNet-50 on the ImageNet benchmark, with and without image patch permutations. In the case of permutations, Perceiver model is able to retain high validation accuracy as a consequence of spatial positional encodings. Attention maps obtained from intermediate layers depict learning of high and low level representations at the initial and last layers respectively. Similarly, the perceiver framework presents improved mAP on the AudioSet benchmark for all modes when compared to prior state-of-the-art methods. In the case of point-cloud, the model is found competitive to geometric approaches such as PointNet++. While the perceiver model presents an initial step towards multi-modal learning without input assumptions, its training details could be further improved. The Perceiver model continues to utilize mode-specific encodings for temporal and spatial inputs. This is in contrast to the initial goal of obtaining a generalized architecture. Lastly, the question of scaling Perceiver to additional modalities (such as haptic sensory inputs) and large data samples still remains an open problem.
 
+The Perceiver framework presents two novel directions for future research. Firstly, the work can be extended to additional sensory inputs such as haptic and wearable readings. And secondly, utilization of a general positional encoding would further reduce mode-specific design choices. 
+
 
 
 
