@@ -40,7 +40,7 @@
 \pagestyle{fancyplain}
 \headheight 35pt
                  % ENTER REVIEW NUMBER HERE %
-\chead{\textbf{\large Review-1}}
+\chead{\textbf{\large Review-52}}
            % ################################### %
 
 \lfoot{}
@@ -53,12 +53,18 @@
 
                  % ENTER PAPER TITLE HERE %
 \begin{center}
-  \large{Paper Title}
+  \large{Perceiver: General Perception with Iterative Attention}
 \end{center}
            % ################################### %
 
+While humans understand multiple modalities such as vision, audition and propioception, deep learning systems, on the other hand, make various architectural assumptions about their learning modes. This enforces restriction of deep learning towards a single mode, hence hindering generalization. To address this problem, the work introduces Perceiver, which is a general model that builds upon Transformers and makes fewer architectural assumptions about its inputs. Perceiver leverages an asymmetric attention mechanism which is iteratively applied to distill inputs into a tight latent bottleneck. Perceiver performs competitively to prior state-of-the-art models across different modalities of images, point-clouds and audio inputs.
+
+Perceiver utilizes Transformers as latent units to form an attention bottleneck. The transformer encodes inputs into a latent array which is interpreted as a query. The high-dimensional byte array (such as pixels of an image) are treated as the keys and values. Latent and byte arrays in conjunction undergoe iterative cross attention mechanism. This corresponds to the repeated projection of high-dimensional byte arrays through a low-dimensional attentional bottleneck which is followed by a deep transformer. Modal inputs to the Perceiver are encoded using positional encodings which are permutationally invariant. These encodings are \textit{tagged} along with the input values (pixels in an image or embeddings in audio) such that the mechanism encodes mode-specific knowledge (spatial or temporal). The framework utilizes a Fourier parameterization which allows direct representation of positional structure and log-uniform sampling of all frequencies. The Perceiver framework, akin to prior attention mechanisms, can be interpreted as an RNN. The iterative attention mechanism further provides $\mathcal{O}(MN)$ complexity with $M$ as the matrix dimension and $N$ being a hyperparameter. This an improvement over the prior attention softmax complexity $\mathcal{O}(M^{2})$ in the absence of asymmetry. Furthermore, a latent transformer increases the expressiveness of architecture with the low computational cost of $\mathcal{O}(N^{2})$.
+
+The Perceiver architecture demonstrates generalization on vision, audio, point-cloud and audio+video. Perceiver is found competitive to ResNet-50 on the ImageNet benchmark, with and without image patch permutations. In the case of permutations, Perceiver model is able to retain high validation accuracy as a consequence of spatial positional encodings. Attention maps obtained from intermediate layers depict learning of high and low level representations at the initial and last layers respectively. Similarly, the perceiver framework presents improved mAP on the AudioSet benchmark for all modes when compared to prior state-of-the-art methods. In the case of point-cloud, the model is found competitive to geometric approaches such as PointNet++. While the perceiver model presents an initial step towards multi-modal learning without input assumptions, its training details could be further improved. The Perceiver model continues to utilize mode-specific encodings for temporal and spatial inputs. This is in contrast to the initial goal of obtaining a generalized architecture. Lastly, the question of scaling Perceiver to additional modalities (such as haptic sensory inputs) and large data samples still remains an open problem.
 
 
-Your review goes here.
+
+
 
 \end{document}
