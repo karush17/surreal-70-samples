@@ -60,6 +60,7 @@ This repository is a collection of short summaries of papers in Deep Learning. S
 |49|[NICE: Non-linear Independent Components Estimation](https://arxiv.org/pdf/1410.8516.pdf)|Laurent Dinh,David Krueger,Yoshua Bengio|[link](Reviews/Review-49/main.pdf)|
 |50|[Augmenting Physical Models with Deep Networks for Complex Dynamics Forecasting](https://openreview.net/pdf?id=kmG8vRXTFv)|Yuan Yin, Vincent Le Guen, Jérémie Dona, Emmanuel de Bezenac, Ibrahim Ayed, Nicolas Thome, Patrick Gallinari|[link](Reviews/Review-50/main.pdf)|
 |51|[Conservative Q-Learning for Offline Reinforcement Learning](https://arxiv.org/pdf/2006.04779.pdf)|Aviral Kumar, Aurick Zhou, George Tucker, Sergey Levine|[link](Reviews/Review-51/main.pdf)|
+|52|[Perceiver: General Perception with Iterative Attention](https://arxiv.org/pdf/2103.03206.pdf)|Andrew Jaegle, Felix Gimeno, Andrew Brock, Andrew Zisserman, Oriol Vinyals, Joao Carreira|[link](Reviews/Review-52/main.pdf)|
 
 
 ## <a name="guidlines"></a>Summary Guidlines
