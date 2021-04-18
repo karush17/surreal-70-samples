@@ -40,7 +40,7 @@
 \pagestyle{fancyplain}
 \headheight 35pt
                  % ENTER REVIEW NUMBER HERE %
-\chead{\textbf{\large Review-1}}
+\chead{\textbf{\large Review-54}}
            % ################################### %
 
 \lfoot{}
@@ -53,12 +53,16 @@
 
                  % ENTER PAPER TITLE HERE %
 \begin{center}
-  \large{Paper Title}
+  \large{Deep symbolic regression: Recovering mathematical expressions from data via risk-seeking policy gradients}
 \end{center}
            % ################################### %
 
+Symbolid regression describes the problem of capturing the underlying mathematical expressions representing a dataset. Deep learning methods remain underexplored in this area. The work proposes a Deep Symbolic Regression (DSR) framework uses a large model to search the space of small models. DSR utilizes a Recurrent Neural Network (RNN) to emit distributions over tractable mathematical expressions. The framework is trained using a novel risk-seeking policy gradient objective, motivated by reinforcement learning, which provisions the generation of best-fitting expressions. DSR demonstrates improved performance in comparison to prior state-of-the-art methods and suitable optimization of best-case performance. 
+
+Mathematical expressions may be constructed as symbolic regression trees such as a \textit{pre-order traversal tree}. The work leverages this insight to construct a pre-order traversal tree based on the expressions sampled from a large model which spans the space of many smaller models. An RNN infer the input as parent and sibling tokens as inputs from the expression library and outputs a categorical distribution over expressions. The token sampled from the distribution acts as the parent token in the next timestep. Autoregressive sampling of tokens till a fixed terminal timestep gives rise to an expression tree representing the final expression. The RNN is trained to maximize the likelihood of best-fitting expressions using a novel risk-seeking policy gradient objective. The reward function, which is inversely proportional to the normalized root-mean-square error (NMSE), evaluates the pre-order traversal sampled by the categorical distribution. Tokens in the traversal can be seen as actions sampled from a policy distribution to maximize long-term rewards as in the RL setting. Towards this insigt, DSR utilizes risk-seeking policy gradients which provide a lower bound constraint on the reward maximization process. Intuitively, the framework aims to maximize best-case performance as opposed to maximizing exprected performance in the standard RL setting.
+
+DSR presents improved success rates for retrieving expressions, in some cases exactly, when compared to state-of-the-art commercial methods such as Eureqa. The framework aptly maximizes best case performance and presents signficant improvement over the standard policy gradient method. A thorough ablation study of DSR depicts the suitability of its components and its robustness to dataset and reward noise. ON the other hand, DSR struggles at realizing complex higher-order polynomial expressions with dual variables and fractions ($x^{4} - x^{3} + 0.5y^{2} - y$). One of the reasons for this shortcoming could be the potentially large space of tokens which is akin to a high-dimensional action space in the RL setting. THus, addressing complex expressions still remains an open question as a result of their wide applications in the scientific community. 
 
 
-Your review goes here.
 
 \end{document}
