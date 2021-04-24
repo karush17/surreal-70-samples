@@ -63,6 +63,8 @@ Akin to domain-specific knowledge, PoE abstracts data representation across mult
 
 PoE model training for Restricted Boltzmann Machines (RBMs) via CD minimization demonstrates suitable improvements to CD updates resulting in convergence, as opposed to conventional log likelihood training. Experts learn rich feature representations in the case of handwritten digit images such as strokes and angular curves and highlight suitable data reconstruction from binary activities. Additionally, log scores for experts are qualitatively different emphasizing the variable nature of data presented to each expert during training. On the other hand, the PoE setup could be further elaborated with regards to its approximation. While the work empirically justifies the small contribution of gradient of \textit{one-step} distribution, a theoretical reasoning for the same would validate the claim. Similarly, high-dimensional datasets may provide the model with variable manifolds which are non-trivial to optimize over. This can intuitively be observed with class outliers or large imbalanced datasets. Thus, the alternate resemblance of data samples being close to low-dimensional distributions appears weak and applicable only in the case of well-represented datasets. A more rigorous discussion in this regard would further facilitate validation. 
 
+The PoE model presents two new avenues for future research. Firstly, the scheme can be further extended to capture richer feature representations often observed in temporal datasets such a time-series and image sequences. And secondly, the work can be further extended towards alternate training mechanisms which provision parallel feature search such as evolutionary methods. 
+
 
 
 \end{document}
