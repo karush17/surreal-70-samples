@@ -63,6 +63,7 @@ This repository is a collection of short summaries of papers in Deep Learning. S
 |52|[Perceiver: General Perception with Iterative Attention](https://arxiv.org/pdf/2103.03206.pdf)|Andrew Jaegle, Felix Gimeno, Andrew Brock, Andrew Zisserman, Oriol Vinyals, Joao Carreira|[link](Reviews/Review-52/main.pdf)|
 |53|[On the mapping between Hopfield networks and Restricted Boltzmann Machines](https://arxiv.org/pdf/2101.11744.pdf)|Matthew Smart, Anton Zilman|[link](Reviews/Review-53/main.pdf)|
 |54|[Deep symbolic regression: Recovering mathematical expressions from data via risk-seeking policy gradients](https://openreview.net/pdf?id=m5Qsh0kBQG)|Brenden K Petersen, Mikel Landajuela Larma, Terrell N. Mundhenk, Claudio Prata Santiago, Soo Kyung Kim, Joanne Taery Kim|[link](Reviews/Review-54/main.pdf)|
+|55|[Training Products of Experts by Minimizing Contrastive Divergence](https://www.cs.toronto.edu/~fritz/absps/tr00-004.pdf)|Geoffrey E. Hinton|[link](Reviews/Review-55/main.pdf)|
 
 
 ## <a name="guidlines"></a>Summary Guidlines
