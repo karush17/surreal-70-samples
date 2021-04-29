@@ -64,6 +64,7 @@ This repository is a collection of short summaries of papers in Deep Learning. S
 |53|[On the mapping between Hopfield networks and Restricted Boltzmann Machines](https://arxiv.org/pdf/2101.11744.pdf)|Matthew Smart, Anton Zilman|[link](Reviews/Review-53/main.pdf)|
 |54|[Deep symbolic regression: Recovering mathematical expressions from data via risk-seeking policy gradients](https://openreview.net/pdf?id=m5Qsh0kBQG)|Brenden K Petersen, Mikel Landajuela Larma, Terrell N. Mundhenk, Claudio Prata Santiago, Soo Kyung Kim, Joanne Taery Kim|[link](Reviews/Review-54/main.pdf)|
 |55|[Training Products of Experts by Minimizing Contrastive Divergence](https://www.cs.toronto.edu/~fritz/absps/tr00-004.pdf)|Geoffrey E. Hinton|[link](Reviews/Review-55/main.pdf)|
+|56|[Linear Transformers Are Secretly Fast Weight Memory Systems](https://arxiv.org/pdf/2102.11174.pdf)|Imanol Schlag, Kazuki Irie, Jurgen Schmidhuber|[link](Reviews/Review-56/main.pdf)|
 
 
 ## <a name="guidlines"></a>Summary Guidlines
