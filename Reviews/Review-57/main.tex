@@ -40,7 +40,7 @@
 \pagestyle{fancyplain}
 \headheight 35pt
                  % ENTER REVIEW NUMBER HERE %
-\chead{\textbf{\large Review-1}}
+\chead{\textbf{\large Review-57}}
            % ################################### %
 
 \lfoot{}
@@ -53,12 +53,18 @@
 
                  % ENTER PAPER TITLE HERE %
 \begin{center}
-  \large{Paper Title}
+  \large{Very Deep VAEs Generalize Autoregressive Models and Can Outperform Them on Images}
 \end{center}
            % ################################### %
 
+Autoregressive models for long have been known to outperform latent variable models such as VAEs. The work explores, insufficient depth, a pivotal aspect of this regard. To this end, the work proposes a hierarchical VAE which is motivated by theoretical insights explaining that VAEs potentially denote autoregressive models when made sufficiently deep. The novel VAE architecture, with depth scaling past 70 layers, outperforms prior methods such as the PixelCNN with higher likelihoods, fewer parameters, faster sample generation and improved resolution quality among samples. 
+
+The work aims to verify a simple postulate, \textit{hierarchical VAEs should be able to at least match autoregressive models}. To bake reasoning in light of this claim, the work introduces a hierarchical VAE which learns an encoder with efficient hierarchies of latent variables. Upon making the latent variables conditionally independent, the architecture generates them in parallel, resulting in faster sampling. Akin to the hierarchical VAE workflow, the architecture consists of bottom-up and top-down paths with the former and latter having residual and topdown blocks respectively. Block modules consist of only convolutional layers followed by GELU nonlinearity and stochastic layers for approximating multivariate Gaussian distributions. The work additionally used nearest-neighbor upsampling for the unpool layer which does away with the need for KL warming up. Furthermore, the work stabilizes VAE optimization with by skipping updates with a gradient norm set as a hyperparameter. This leads to suitable convergence as validated in ablations. 
+
+Very deep VAEs demonstrate improved test performance and parameter counts with increasing number of layers on the ImageNet-32 becnhmark. This validates the theoretical claims set by the work in regards to statistical depth of stochastic layers. In case of the FFHQ-256 benchmark, higher convolution resolutions highlight the ability of the model to capture global structures while lower resolutions are sufficient to extract ample local textures. Furthermore, this arises as a direct consequence of fewer long-range dependencies involved in the generative process. The central result of training very deep VAEs originates upon their comparison with PixelCNN. \textit{Very deep VAEs outperform autoregressive models} such as PixelCNN with lower log-likelihoods and parameter counts on a range of challenging benchmarks. 
+
+While the work sets a new standard for latent-variable models with the depth explaining scalability of hierarchies, the work could explore additional aspects. In case of FFHQ-1024, the deep VAE has capacity similar to smaller models and hence, it fails to capture intricate details. A common solution would be to scale up models by adding more layers. However, one might ask \textit{how can we embed a similar hierarchical structure in smaller models to capture intricacies?}. Along similar lines, how can one use the learned representations from a very deep VAE? Perhaps, transfering representations to downstream tasks such as facial recognition tasks would help aid our understanding of deep VAE generalizations. 
 
 
-Your review goes here.
 
 \end{document}
