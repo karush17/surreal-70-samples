@@ -65,6 +65,8 @@ Very deep VAEs demonstrate improved test performance and parameter counts with i
 
 While the work sets a new standard for latent-variable models with the depth explaining scalability of hierarchies, the work could explore additional aspects. In case of FFHQ-1024, the deep VAE has capacity similar to smaller models and hence, it fails to capture intricate details. A common solution would be to scale up models by adding more layers. However, one might ask \textit{how can we embed a similar hierarchical structure in smaller models to capture intricacies?}. Along similar lines, how can one use the learned representations from a very deep VAE? Perhaps, transfering representations to downstream tasks such as facial recognition tasks would help aid our understanding of deep VAE generalizations. 
 
+Extending deep VAE architectures towards autoregressive models presents two new directions for future research. Firstly, very deep VAEs could be used to amplify our understanding of hierarchical latent variables in VAE and their usage within shallow architectures. And secondly, representations learned by deep VAEs could be utilized for downstream trasnfer or few-shot representation learning among hierarchies in other models. 
 
+The work explored very deep VAEs through the lens of autoregressive models. Deep hierarchical VAEs, in conjunction with nearest-neighbor upsampling and gradient skipping, outperform PixelCNN and conventional methods resulting in fewer parameters and improved sample quality. 
 
 \end{document}
