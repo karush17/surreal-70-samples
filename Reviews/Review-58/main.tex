@@ -63,6 +63,8 @@ A novel perspective of PCA as a competitive game obviates the need for any ortho
 
 In comparison to prior methods such as GHA and Matrix Krasulinas and Oja's rule, EigenGame presents comparative convergence on synthetic and MNIST datasets for linear and exponentially decaying spectrums. Furthermore, the algorithm appropriately minimizes the distance towards its optimal subspace in the sequential setting. In case of the distributed setting, EigenGame is scaled up to retrieve the principal components of ResNet-200 activations which presents accurate reasoning about the abstract representations learned by lower layers of the architecture. Higher layers, on the other hand, learn distinct filters such as Gabor and Laplacian-of-Gaussian filter maps. 
 
+EigenGame, by virtue of unifying dimensionality reduction with game theory, opens several new directions fo future research. Firstly, the work may be extended to other dimensionality reduction techniques which necessitate higher order SVD computations. And secondly, the work asks an important question towards how spurious minima representing sub-optimal Nash may be avoided in the case of DAG-based structures.
+
 
 
 \end{document}
