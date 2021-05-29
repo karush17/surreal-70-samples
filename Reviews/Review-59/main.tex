@@ -1,0 +1,67 @@
+
+\documentclass[11pt,letterpaper]{article}
+\usepackage{fullpage}
+\usepackage[top=2cm, bottom=4.5cm, left=2.5cm, right=2.5cm]{geometry}
+\usepackage{amsmath,amsthm,amsfonts,amssymb,amscd}
+\usepackage{lastpage}
+\usepackage{enumerate}
+\usepackage{fancyhdr}
+\usepackage{mathrsfs}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{listings}
+\usepackage{hyperref}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{float}
+\hypersetup{%
+  colorlinks=true,
+  linkcolor=blue,
+  linkbordercolor={0 0 1}
+}
+\renewcommand\lstlistingname{Algorithm}
+\renewcommand\lstlistlistingname{Algorithms}
+\def\lstlistingautorefname{Alg.}
+
+\lstdefinestyle{Python}{
+    language        = Python,
+    frame           = lines, 
+    basicstyle      = \footnotesize,
+    keywordstyle    = \color{blue},
+    stringstyle     = \color{green},
+    commentstyle    = \color{red}\ttfamily
+}
+
+\setlength{\parindent}{0.0in}
+\setlength{\parskip}{0.05in}
+
+
+
+\pagestyle{fancyplain}
+\headheight 35pt
+                 % ENTER REVIEW NUMBER HERE %
+\chead{\textbf{\large Review-59}}
+           % ################################### %
+
+\lfoot{}
+\cfoot{}
+\rfoot{\small\thepage}
+\headsep 1.5em
+
+\begin{document}
+
+
+                 % ENTER PAPER TITLE HERE %
+\begin{center}
+  \large{Disentangled Recurrent Wasserstein Autoencoder}
+\end{center}
+           % ################################### %
+
+While learning of diesentangled representations leads to better interpretability, only a handful of works explore unsupervised sequential representations. The work introduces reccurrent Wasserstein Autoencoder (R-WAE), which disentangles representation of an input sequence into stattic and dynamic factors. R-WAE minimizes an upper bound of a penalized for of the Wasserstein distance between model and sequential distributions, and simultaneously maximizes the mutual information between input data and different disentangled factors. R-WAE is further extended to learn categorical latent representations in the case of weak supervision. Empirical evaluation of R-WAE on video generation and disentanglement demosntrates improved performance in comparison to prior methods.
+
+A sequence $x_{1:T}$ is disentangled into static part $z^{c}$ and dynamic part $\{z_{t}^{m}\}$. The primary component behind this procedure is the optimal transport $W(P_{D}, P_{G})$ between the data distribution $P_{D}$ and latent code distribution $P_{G}$ with respective sequential variables $X_{1:T}$. In practice, $W(P_{D},P_{G})$ corresponds to a penalized form of a Wasserstein distance which the method minimizes for disentangline representations. This is achieved by utilizing scaled MMD penalties for latents $Z^{C}$ and $Z^{m}$ which are more expressive in comparison to scaled Jenson-Shannon penalties. In case the number of motions in the sequential data aer available, the framework incorporates categorical latent variables $a$ to enhance the disentanglement of the dynamic latent codes of motions. From an information theoretic perspective, R-WAE minimizes a lower bound o Mutual Information which is superior to the bound of a VAE due to the presence of two KL terms with each corresponding to stattic and dynamic factors.
+
+The R-WAE framework, in comparison to prior generative and sequential disentangling frameworks, demonstrates improved performance. R-WAE achieves better EER for static and dynamic latents on the TIMIT speech dataset and classification errors on Sprites and moving MNIST. Qualitatively, R-WAE suitably captures motion and static components which are further utilized across different subjects. Additionally, the framework presents apt sample quality among generated video frames. Perhaps a natural questiona arises of how does the minimization of R-WAE lower bound quantitatively compare to that of VAE? The answer would help further understand the superiority of R-WAE to a sequential VAE. 
+
+The framework of sequential disentanglement using a Wasserstein metric presents two novel directions for future research. Firstly, the work poses an important question of what other metrics can be utilized to capture more complex latent components in videos? And secondly, R-WAE could be further extended to larger temporal span wherein the length of the video is signficantly large and sequential prediction errors may compound over the course of inference, 
+\end{document}

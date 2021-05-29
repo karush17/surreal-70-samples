@@ -67,7 +67,7 @@ This repository is a collection of short summaries of papers in Deep Learning. S
 |56|[Linear Transformers Are Secretly Fast Weight Memory Systems](https://arxiv.org/pdf/2102.11174.pdf)|Imanol Schlag, Kazuki Irie, Jurgen Schmidhuber|[link](Reviews/Review-56/main.pdf)|
 |57|[Very Deep VAEs Generalize Autoregressive Models and Can Outperform Them on Images](https://openreview.net/pdf?id=RLRXCV6DbEJ)|Rewon Child|[link](Reviews/Review-57/main.pdf)|
 |58|[EigenGame: PCA as a Nash Equilibrium](https://openreview.net/forum?id=NzTU59SYbNq)|Ian Gemp, Brian McWilliams, Claire Vernade, Thore Graepel|[link](Reviews/Review-58/main.pdf)|
-|59|[Disentangled Recurrent Wasserstein Autoencoder](https://openreview.net/pdf?id=O7ms4LFdsX)|Jun Han, Martin Renqiang Min, Ligong Han, Li Erran L, Xuan Zhang|[link](Reviews/Review-58/main.pdf)|
+|59|[Disentangled Recurrent Wasserstein Autoencoder](https://openreview.net/pdf?id=O7ms4LFdsX)|Jun Han, Martin Renqiang Min, Ligong Han, Li Erran L, Xuan Zhang|[link](Reviews/Review-59/main.pdf)|
 
 
 ## <a name="guidlines"></a>Summary Guidlines
