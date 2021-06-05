@@ -1,0 +1,68 @@
+
+\documentclass[12pt,letterpaper]{article}
+\usepackage{fullpage}
+\usepackage[top=2cm, bottom=4.5cm, left=2.5cm, right=2.5cm]{geometry}
+\usepackage{amsmath,amsthm,amsfonts,amssymb,amscd}
+\usepackage{lastpage}
+\usepackage{enumerate}
+\usepackage{fancyhdr}
+\usepackage{mathrsfs}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{listings}
+\usepackage{hyperref}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{float}
+\hypersetup{%
+  colorlinks=true,
+  linkcolor=blue,
+  linkbordercolor={0 0 1}
+}
+\renewcommand\lstlistingname{Algorithm}
+\renewcommand\lstlistlistingname{Algorithms}
+\def\lstlistingautorefname{Alg.}
+
+\lstdefinestyle{Python}{
+    language        = Python,
+    frame           = lines, 
+    basicstyle      = \footnotesize,
+    keywordstyle    = \color{blue},
+    stringstyle     = \color{green},
+    commentstyle    = \color{red}\ttfamily
+}
+
+\setlength{\parindent}{0.0in}
+\setlength{\parskip}{0.05in}
+
+
+
+\pagestyle{fancyplain}
+\headheight 35pt
+                 % ENTER REVIEW NUMBER HERE %
+\chead{\textbf{\large Review-60}}
+           % ################################### %
+
+\lfoot{}
+\cfoot{}
+\rfoot{\small\thepage}
+\headsep 1.5em
+
+\begin{document}
+
+
+                 % ENTER PAPER TITLE HERE %
+\begin{center}
+  \large{VAEBM: A Symbiosis between Variational Autoencoders and Energy-based Models}
+\end{center}
+           % ################################### %
+
+Sampling from Energy-Based Models (EBMs) requires expensive Markov Chain Monte Carlo (MCMC) iterations which may not necessarily scale to high dimensional spaces. Variational Autoencoders (VAEs), on the other hand, provide faster generation of samples but often assign high probability to density regions outside the data distribution. A combination of the two models presents itself as a natural alternative. The work proposes VAEBM, a symbiotic composition of a VAE and EBM. VAEBM captures the overall mode structure of data using a VAE and explicitly excludes out-of-distribution samples using an EBM. Additionally, reparameterization of MCMC updates in the VAE's latent space facilitate faster sampling resulting in improved generative sample quality and scalability of short MCMC chains to high dimensional images.
+
+VAEBM constructs a generative model by the product of a VAE generator and an EBM component defined in the data space. The model $h_{\theta,\psi}(x,z)$ constitutes a VAE generator $p_{\theta}(x,z)$ and an EBM $E_{\psi}(x)$ which give rise to the joint maximum marginal log-likelihood objective $\log h_{\psi,\theta}(x)$. The objective is trained in two stages. The first stage trains VAE by maximizing the ELBO lower bound. In the second stage, the VAE model is kept fixed while the EBM is trained w.r.t the parameters $\psi$ of the energy function. The training process additionally speeds up MCMC iterations by runnning chains in the joint space of $x$ and $z$. Both variables are reparameterized in the latent space of VAE by virtue of a deterministic transformation $T_{theta}$. Abstraction of training into two stages provisions reduced mismatch between data and model distributions by virtue of EBM. The pre-trained VAE provides a smoother latent space which results in efficient MCMC iterations. 
+
+VAEBM, when compared to prior methods, presents significant improvement in generative quality of samples. The model closes the gap with GAN-based methods and outperforms prior EBMs and likelihood models. Qualitatively, faster training results in sample-efficient Markov chains. Additionally, the method presents improved mode coverage in comparison to VAEs. While the work presents a superior working example of image generation in the unsupervised setting, a reasonable question to ask would be \textit{What other applications does VAEBM generalize to?} For instance, assessing the adversarial robustness of EBM to out-of distribution samples and trasnfer of VAEBM generator to downstream tasks would help better understand the utility of its training scheme.
+
+
+
+\end{document}
