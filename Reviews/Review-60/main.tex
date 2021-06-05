@@ -63,6 +63,8 @@ VAEBM constructs a generative model by the product of a VAE generator and an EBM
 
 VAEBM, when compared to prior methods, presents significant improvement in generative quality of samples. The model closes the gap with GAN-based methods and outperforms prior EBMs and likelihood models. Qualitatively, faster training results in sample-efficient Markov chains. Additionally, the method presents improved mode coverage in comparison to VAEs. While the work presents a superior working example of image generation in the unsupervised setting, a reasonable question to ask would be \textit{What other applications does VAEBM generalize to?} For instance, assessing the adversarial robustness of EBM to out-of distribution samples and trasnfer of VAEBM generator to downstream tasks would help better understand the utility of its training scheme.
 
+Amalgamation of a VAE with an EBM opens two new directions for future research. Firstly, VAEBMs can be generalized to novel downstream scenarios and adversarial settings. And secondly, reparamterization of MCMC updates provide a novel viewpoint towards the training of EBMs. Reduction in the dimensionality of energy function could facilitate training of other complex EBMs and their generaliztion to high dimensional data distributions.
+
 
 
 \end{document}
