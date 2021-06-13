@@ -63,6 +63,8 @@ The framework proposes a diffusion recovery likelihood approach for tractable le
 
 The proposed diffusion-based approach outperforms prior EBM and score-matching methods and is competitive to GAN-based frameworks on CIFAR-10 and CelebA 64 benchmarks. Qualitatively, samples generated from recovery likelihood learning are og high fidelity and close to realistic images. Latent interpolation of data points further generates images which smoothly transition between pairs, thus indicating that the diffusion process induces a smooth latent space. Additionally, the algorithm highlights its utility to the task of image impainting wherein it completes occluded regions of input images by generating apt synthetic masks. A key property of the recovery likelihood learning is highlighted in stabilizing long-run MCMC chains. The work validates this for differnt settings such as HMC sampling and variable number of samples. MCMC chains generated using the above process produce realistic images even after 1k steps. Although the sample quality of images diminishes with further sampling, the work highlights this as a promising direction for high-dimensional learning. 
 
+Recovery likelihood learning facilitates scalability to high-dimensional datasets and opens several new avenues for future work. Firstly, the framework can be extended to other data modalities and downstream settings to study its utility for practical applications. And secondly, provision of stable long-run MCMC chains motivates investigations into its sample quality and limits on convergence.
+
 
 
 \end{document}
