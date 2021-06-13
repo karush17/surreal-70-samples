@@ -69,6 +69,7 @@ This repository is a collection of short summaries of papers in Deep Learning. S
 |58|[EigenGame: PCA as a Nash Equilibrium](https://openreview.net/forum?id=NzTU59SYbNq)|Ian Gemp, Brian McWilliams, Claire Vernade, Thore Graepel|[link](Reviews/Review-58/main.pdf)|
 |59|[Disentangled Recurrent Wasserstein Autoencoder](https://openreview.net/pdf?id=O7ms4LFdsX)|Jun Han, Martin Renqiang Min, Ligong Han, Li Erran L, Xuan Zhang|[link](Reviews/Review-59/main.pdf)|
 |60|[VAEBM: A Symbiosis between Variational Autoencoders and Energy-based Models](https://openreview.net/forum?id=5m3SEczOV8L)|Zhisheng Xiao, Karsten Kreis, Jan Kautz, Arash Vahdat|[link](Reviews/Review-60/main.pdf)|
+|61|[Learning Energy-Based Models by Diffusion Recovery Likelihood ](https://openreview.net/forum?id=v_1Soh8QUNc)|Ruiqi Gao, Yang Song, Ben Poole, Ying Nian Wu, Diederik P Kingma|[link](Reviews/Review-61/main.pdf)|
 
 
 ## <a name="guidlines"></a>Summary Guidlines
