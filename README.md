@@ -71,6 +71,7 @@ This repository is a collection of short summaries of papers in Deep Learning. S
 |60|[VAEBM: A Symbiosis between Variational Autoencoders and Energy-based Models](https://openreview.net/forum?id=5m3SEczOV8L)|Zhisheng Xiao, Karsten Kreis, Jan Kautz, Arash Vahdat|[link](Reviews/Review-60/main.pdf)|
 |61|[Learning Energy-Based Models by Diffusion Recovery Likelihood ](https://openreview.net/forum?id=v_1Soh8QUNc)|Ruiqi Gao, Yang Song, Ben Poole, Ying Nian Wu, Diederik P Kingma|[link](Reviews/Review-61/main.pdf)|
 |62|[Improved Contrastive Divergence Training of Energy-Based Model](https://arxiv.org/pdf/2012.01316.pdf)|Yilun Du, Shuang Li, Joshua Tenenbaum, Igor Mordatch|[link](Reviews/Review-62/main.pdf)|
+|63|[Conjugate Energy-Based Models](https://openreview.net/forum?id=Asc_uGR8OkU)|Hao Wu, Babak Esmaeili, Michael L Wick, Jean-Baptiste Tristan, Jan-Willem van de Meent|[link](Reviews/Review-63/main.pdf)|
 
 
 ## <a name="guidlines"></a>Summary Guidlines
