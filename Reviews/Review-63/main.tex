@@ -1,0 +1,68 @@
+
+\documentclass[12pt,letterpaper]{article}
+\usepackage{fullpage}
+\usepackage[top=2cm, bottom=4.5cm, left=2.5cm, right=2.5cm]{geometry}
+\usepackage{amsmath,amsthm,amsfonts,amssymb,amscd}
+\usepackage{lastpage}
+\usepackage{enumerate}
+\usepackage{fancyhdr}
+\usepackage{mathrsfs}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{listings}
+\usepackage{hyperref}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{float}
+\hypersetup{%
+  colorlinks=true,
+  linkcolor=blue,
+  linkbordercolor={0 0 1}
+}
+\renewcommand\lstlistingname{Algorithm}
+\renewcommand\lstlistlistingname{Algorithms}
+\def\lstlistingautorefname{Alg.}
+
+\lstdefinestyle{Python}{
+    language        = Python,
+    frame           = lines, 
+    basicstyle      = \footnotesize,
+    keywordstyle    = \color{blue},
+    stringstyle     = \color{green},
+    commentstyle    = \color{red}\ttfamily
+}
+
+\setlength{\parindent}{0.0in}
+\setlength{\parskip}{0.05in}
+
+
+
+\pagestyle{fancyplain}
+\headheight 35pt
+                 % ENTER REVIEW NUMBER HERE %
+\chead{\textbf{\large Review-63}}
+           % ################################### %
+
+\lfoot{}
+\cfoot{}
+\rfoot{\small\thepage}
+\headsep 1.5em
+
+\begin{document}
+
+
+                 % ENTER PAPER TITLE HERE %
+\begin{center}
+  \large{Conjugate Energy-Based Models}
+\end{center}
+           % ################################### %
+
+Prior Energy-based Models (EBMs) exclusively employ a generator network to faithfully reproduce synthetic samples from the latent distribution. This hinders learning more flexibly notions of similarity between data points. The work introduces Conjugate EBMs (CEBMs), a new class of models which define a joint density over data and latent variables. THe joint density decomposes into an intractable distribution over data and a tractable posterior over latent variables. Empirically, CEBMs demonstrate competitive results on image modelling, predictive power of latent space and out-of-domain detection on a variety of datasets.
+
+Prior EBMs emphasize on capturing all notions of similarities by explicitly utilizing a generator network. For instance, a VAE must encode all factors of variation that give rise to large deviations in pixel space, regardless of whether these factors are semantically meaningful. The work aims to simplify this idea by constructing an EBM which has its use case akin to a VAE, but empoloy a discriminative energy function to model data at an intermediate level of representation. The above intuition does away with encoding all factors of an image at the pixel level. Concretely, the formulation proposes a joint density $p_{\theta,\lambda}(x,z)$ defined over the EBM $E_{\theta,\lambda}(x,z)$. The EBM further consists of the terms $\langle-t_{\theta}(x),\eta(z)\rangle$ and $E_{\lambda}(z)$ wherein the first quantity denotes the output of encoder $t_{\theta}$ and natural parameters $\eta$ in the same space as the neural sufficient statistics. The second term denotes a bias in the form of a tractable exponential family. The above formulation factorizes to a posterior $p_{\theta,\lambda}(z|x)$ and marginal $p_{\theta,\lambda}(x)$. The posterior is conjugate in the sense that it is in the same exponential family as the bias. CEBMs differ from VAEs as joint density is fully expressed as per the encoder network. However, unlike VAEs, the prior density in the factorization may not always be tractable. $p_{\theta,\lambda}(z)$ takes the form of an exponential family prior and hence, it is utilized as an inductive bias which only imposes a soft constraint on the geometry of latent space. The work limits its study to spherical Gaussian and Mixture of Gaussians cases for analysis.
+
+CEBMs qualitatively present high-fidelity samples generated from the model on MNIST, Fashion-MNIST, SVHN and CIFAR-10 benchmarks. The encoder network of a CEBM induces smooth latent space wherein samples corresponding to same class are closer to each other, a desirable property for downstream classification tasks. The utility of CEBMs is further highlighted upon evaluating on 1 Nearest Neighbor classification wherein the discriminator depicts higher confidence for correct classes in comparison to VAE. Furthermore, the GMM-CEBM variant, when compared to a variety of generative models in the presence of varying training samples, presents improved classification accuracy as a result of semantically meaningful latents. CEBMs additionally outshine prior methods in OOD detection by depicting higher AUROC values for $log p_{\theta}(x)$ and $||\nabla_{x}\log p_{\theta}(x)||$. 
+
+
+
+\end{document}
