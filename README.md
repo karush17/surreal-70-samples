@@ -73,6 +73,7 @@ This repository is a collection of short summaries of papers in Deep Learning. S
 |62|[Improved Contrastive Divergence Training of Energy-Based Model](https://arxiv.org/pdf/2012.01316.pdf)|Yilun Du, Shuang Li, Joshua Tenenbaum, Igor Mordatch|[link](Reviews/Review-62/main.pdf)|
 |63|[Conjugate Energy-Based Models](https://openreview.net/forum?id=Asc_uGR8OkU)|Hao Wu, Babak Esmaeili, Michael L Wick, Jean-Baptiste Tristan, Jan-Willem van de Meent|[link](Reviews/Review-63/main.pdf)|
 |64|[Fully Unsupervised Diversity Denoising with Convolutional Variational Autoencoders](https://openreview.net/forum?id=agHLCOBM5jP)|Mangal Prakash, Alexander Krull, Florian Jug|[link](Reviews/Review-64/main.pdf)|
+|65|[Bayesian Quadrature on Riemannian Data Manifolds](https://arxiv.org/pdf/2102.06645.pdf)|Christian Frohlich, Alexandra Gessner, Philipp Hennig, Bernhard Scholkopf, Georgios Arvanitidis|[link](Reviews/Review-65/main.pdf)|
 
 
 ## <a name="guidlines"></a>Summary Guidlines
