@@ -1,0 +1,71 @@
+
+\documentclass[12pt,letterpaper]{article}
+\usepackage{fullpage}
+\usepackage[top=2cm, bottom=4.5cm, left=2.5cm, right=2.5cm]{geometry}
+\usepackage{amsmath,amsthm,amsfonts,amssymb,amscd}
+\usepackage{lastpage}
+\usepackage{enumerate}
+\usepackage{fancyhdr}
+\usepackage{mathrsfs}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{listings}
+\usepackage{hyperref}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{float}
+\hypersetup{%
+  colorlinks=true,
+  linkcolor=blue,
+  linkbordercolor={0 0 1}
+}
+\renewcommand\lstlistingname{Algorithm}
+\renewcommand\lstlistlistingname{Algorithms}
+\def\lstlistingautorefname{Alg.}
+
+\lstdefinestyle{Python}{
+    language        = Python,
+    frame           = lines, 
+    basicstyle      = \footnotesize,
+    keywordstyle    = \color{blue},
+    stringstyle     = \color{green},
+    commentstyle    = \color{red}\ttfamily
+}
+
+\setlength{\parindent}{0.0in}
+\setlength{\parskip}{0.05in}
+
+
+
+\pagestyle{fancyplain}
+\headheight 35pt
+                 % ENTER REVIEW NUMBER HERE %
+\chead{\textbf{\large Review-65}}
+           % ################################### %
+
+\lfoot{}
+\cfoot{}
+\rfoot{\small\thepage}
+\headsep 1.5em
+
+\begin{document}
+
+
+                 % ENTER PAPER TITLE HERE %
+\begin{center}
+  \large{Bayesian Quadrature on Riemannian Data Manifolds}
+\end{center}
+           % ################################### %
+
+Riemannian metrics on manifolds define geomtry-aware shortest paths. However, computation of these operations are significantly expensive. The paper proposes probabilistic methods for Riemmannian statistics to ease the aforesaid burden of computations. Utilizing Bayesian Quadrature (BQ) to numerically compute integrals over normal laws, the work leverages both prior knowledge and active exploration scheme. BQ reduces the number of evaluations in comparison to Monte-Carlo methods on synthetic and molecular dynamics datasets.
+
+Prior works propose a maximum likelihood estimation scheme based on data-induced metrics to learn the parameters of a Locally Adaptive Normal Distribution (;AND). The paper builds on the LAND model through the lens of BQ. BQ treats numerical integration as an inference problem by constructing posterior measures over integrals given observations. In its vanilla form, the distribution is parameterized by its mean $m(v)$ or covariance $k(v,v^{\prime})$. Following the observations of input data $\mathcal{D}$ and locations $V=v_{1:M}$, the posterior updates its parameters. In the warped BQ setting, the integral task is considered in the tangent space $\mathcal{T}_{\mu}\mathcal{M}$ of manifold $\mathcal{M}$ which is of the Gaussian form. Induction of a small scalar allows tractable updates using Gaussian processes. The warped setting offers the advantages of encoded prior knowledge and fast growing volume in learned metrics. THe third setting of BQ is that of Directional Cumulative Variance (DCV). Following the computation of exponential map, the number of evalutions can be further reduced. DCA provisions BQ from sequential design and allows for selection of initial directions such that the cumulative variance along $\mathcal{T}_{\mu}\mathcal{M}$ is maximized. 
+
+Experiments presented on synthetic and molecular design dataset manifolds present BQ as a promising direction for compuational efficiency. In comparison to presented BQ methods, DCV demonstrates greater runtime efficiency for Circles and MNIST datasets. However, this is efficiency is met with greater relative errors when compared to MOnte-Carlo and other BQ methods. On the other hand, the warped variant highlights lower relative error against increasing runtime in seconds. Qualitative results for molecular design manifolds closely resemble the dataset curvature. Furthermore, the methods provide an intuitive insight into the properties of protein molecules such as the \textit{radius of gyration} or \textit{how muvh open the protein is}. These advanatages of the Baysian methods highlight them as suitable candidates for studying molecular design. 
+
+From the perspective of advances, the work presents two new directions for future research. Firstly, the adaptation of BQ towards other Riemannian metrics and datasets is an interesting avenue. The aforesaid would help in understanding other complex datasets such as relational models in graph structures. And secondly, the approach can be further extended to other Riemannian methods which utilize higher-order curvature information in comparison oto the first-order steepest descent methods. 
+
+The paper presented BQ, a cmoputationally-efficient addition to the prior LAND model. The presented variants of BQ induce prior knowledge and motivate active exploration to enhance diversity in the sample distribution. BQ enables efficient modeling of Riemannian statistics in the case of simple and complex datasets such as molecular designs.
+
+
+\end{document}
