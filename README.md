@@ -1,9 +1,7 @@
-# mini-arXiv
-
-<p align="center"><img src="imgs/logo.PNG" height="200px" width="500px" /></p>
+# The Surreal 70 Samples (S3)  
 
 ## Introduction
-This repository is a collection of short summaries of papers in Deep Learning. Summaries are based on papers which explore novel groundbreaking ideas or consist of theoretically rich concepts. 1 short summary is typically added each week which explores essential aspects of the work, its technical innovation and new questions and ideas raised by the work. Length of each summary is 1 page. Each summary is based on a fixed set of guidlines which are given [here](#guidlines). If you would like to contribute to the summaries then please read [this](#contributions).
+This repository is a collection of 70 short summaries of papers in Deep Learning. Summaries are based on papers which explore novel groundbreaking ideas or consist of theoretically rich concepts. Each short summary was typically added each week which explores essential aspects of the work, its technical innovation and new questions and ideas raised by the work. Length of each summary is 1 page. Each summary is based on a fixed set of guidlines which are given [here](#guidlines).  
 
 ## Available Paper Summaries
 
@@ -134,11 +132,5 @@ Lastly, the conclusions section should clearly and concisely sum up the summary 
 * The summary should walk over the key components of writer's evaluation and his comments on the method.
 * The summary should conclude with a brief note of new ideas/questions introduced by the work and potential directions for future work.
 * Key takeway- Just be done already! 
-
-
-## <a name="contributions"></a>Contributions
-*"No one can whistle a symphony. It takes a whole orchestra to play it."* – H.E. Luccock  
-
-Collaboration is most welcome for this repository. If you believe that you would like to practice your research writing skills or would like to do a literature survey for your independent study, then feel free to hop in! Summaries in this repository follow a general LaTeX template which is available in the template folder. Furthermore, summaries written for the repository must follow the summary guidlines which are available [here](#guidlines). Feel free to submit the paper and its summary by opening a pull request or email it to [xyza8194@gmail.com](xyza8194@gmail.com) (trust me, that email address was available!).
 
 
