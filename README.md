@@ -73,6 +73,7 @@ This repository is a collection of 70 short summaries of papers in Deep Learning
 |64|[Fully Unsupervised Diversity Denoising with Convolutional Variational Autoencoders](https://openreview.net/forum?id=agHLCOBM5jP)|Mangal Prakash, Alexander Krull, Florian Jug|[link](Reviews/Review-64/main.pdf)|
 |65|[Bayesian Quadrature on Riemannian Data Manifolds](https://arxiv.org/pdf/2102.06645.pdf)|Christian Frohlich, Alexandra Gessner, Philipp Hennig, Bernhard Scholkopf, Georgios Arvanitidis|[link](Reviews/Review-65/main.pdf)|
 |66|[High-Dimensional Bayesian Optimization via Nested Riemannian Manifolds](https://arxiv.org/pdf/2010.10904.pdf)|Noémie Jaquier, Leonel Rozo|[link](Reviews/Review-66/main.pdf)|
+|67|[Risk-Averse Offline Reinforcement Learning](https://openreview.net/pdf?id=TBIzh9b5eaz)|Núria Armengol Urpí, Sebastian Curi, Andreas Krause|[link](Reviews/Review-67/main.pdf)|
 
 
 ## <a name="guidlines"></a>Summary Guidlines
