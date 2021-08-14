@@ -40,7 +40,7 @@
 \pagestyle{fancyplain}
 \headheight 35pt
                  % ENTER REVIEW NUMBER HERE %
-\chead{\textbf{\large Review-1}}
+\chead{\textbf{\large Review-68}}
            % ################################### %
 
 \lfoot{}
@@ -53,12 +53,18 @@
 
                  % ENTER PAPER TITLE HERE %
 \begin{center}
-  \large{Paper Title}
+  \large{Provably Good Batch Reinforcement Learning Without Great Exploration}
 \end{center}
            % ################################### %
 
+Batch Reinforcement Learning (RL) algorithms suffer from overly optimistic estimates of expected outcomes. Prior theoretical works rely on a strong concentratibility assumption requiring the ratio of state-action distributions of behavior and candidate policies to be small and bounded. To alleviate the aforesaid concerns, the work theoretically studies batch RL by providing a small modification to Bellman backup estimates. By devising a conservative update consisting of a state-action filtering mechanism, the paper yields stronger guarantees and approximately best policies within the exploration budget of behavior policy. Theoretical results are supported by empirical cmoparisons with prior batch RL methods in MDP examples and continuous control.
+
+The setting builds on the algorithm families of Approximate Policy Iteration (API) and Approximate Value Iteration (AVI) with bounded density ratio assumption. The work highlights drawback associted with concentratibility measures by studying the performance of prior methods on MDP examples. As the size of the dataset grows, rare events steer agents to bootstrap erroneous values which are only corrected once the dataset size has increased sufficiently. Specifically, BEAR and BCQ bootstrap only on the basis of action probability. This calls for a marginalized mechanism which would only base its estimates on frequent state-action pairs. Towards this goal, a Marginalized Behavior Support (MBS) mechanism is proposed which which can be expressed as a functional composition $\zeta \cdot f_{k+1}$ of the value function estimate $f_{k+1}$ and a marginalization function $\zeta(s,a,;\mu,b) = \mathbb{I}(\mu(s,a)>b)$. MBS constrains the Bellman update to be only over the state action pairs that are sufficiently covered in $\mu$. In the approximate setting, an estimate of $\mu$, $\hat{\mu}$ is utilized for practical implementation. Following MBS filtering, the policy is fitted to the filtered value function which is used to construct the updated Bellman bacup estimate. This framework of simulatenous filtering and fitting gives rise to MBS-PI and MBS-QI in the policy and $Q$ iteration settings respectively. Theoretically, marginalizing the support of priors yields a strong bounded guarantee with the best covered policy that is in line with the fast error bounds of API/AVI and $\mathcal{O}(\frac{1}{(1\gamma)^{3}})$ with dependence on horizon. Furthermore, in the presence of an optimal policy under $\mu$, values obtained by the policy $\pi$ are approximately optimal with the gap expressed as per the MBS bound. 
+
+Empirical validations on MDP examples highlight the robustness of MBS schemes towards Out-Of Distrbution (OOD) state-action pairs. Upon varying the exploration budget within the batch, MBS is found robust towards sub-optimal values and consistently approximates optimal returns. In the continuous control setting, MBS outperforms prior batch RL methods which fall prey to erroneous estimates of the sub-optimal batch data. A key question which arises from the theoretical analysis of MBS is that of the choice of filtration function. \textit{What other choices of $\zeta$ can be utilized to marginalize support behaviors?} Tangentially, the work does not throw light on the case wherein $\hat{\mu}$ fails to be an approximate representation of $\mu$. Perhaps a theroetical guarantee on $\hat{\mu} - \mu$ woud address this formulation.
+
+Simultaneous filtering and fitting of behavior constrained Bellman backups provides a strong framework for OOD robustness. The work can be further extended towards alternate formulations of filtration compositions which are theoretically justified. Similarly, future directions could study approximation errors arising from candidate and behavior policy distributions from MDP shifts.
 
 
-Your review goes here.
 
 \end{document}
