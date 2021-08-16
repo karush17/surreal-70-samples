@@ -1,0 +1,67 @@
+
+\documentclass[12pt,letterpaper]{article}
+\usepackage{fullpage}
+\usepackage[top=2cm, bottom=4.5cm, left=2.5cm, right=2.5cm]{geometry}
+\usepackage{amsmath,amsthm,amsfonts,amssymb,amscd}
+\usepackage{lastpage}
+\usepackage{enumerate}
+\usepackage{fancyhdr}
+\usepackage{mathrsfs}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{listings}
+\usepackage{hyperref}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{float}
+\hypersetup{%
+  colorlinks=true,
+  linkcolor=blue,
+  linkbordercolor={0 0 1}
+}
+\renewcommand\lstlistingname{Algorithm}
+\renewcommand\lstlistlistingname{Algorithms}
+\def\lstlistingautorefname{Alg.}
+
+\lstdefinestyle{Python}{
+    language        = Python,
+    frame           = lines, 
+    basicstyle      = \footnotesize,
+    keywordstyle    = \color{blue},
+    stringstyle     = \color{green},
+    commentstyle    = \color{red}\ttfamily
+}
+
+\setlength{\parindent}{0.0in}
+\setlength{\parskip}{0.05in}
+
+
+
+\pagestyle{fancyplain}
+\headheight 35pt
+                 % ENTER REVIEW NUMBER HERE %
+\chead{\textbf{\large Review-69}}
+           % ################################### %
+
+\lfoot{}
+\cfoot{}
+\rfoot{\small\thepage}
+\headsep 1.5em
+
+\begin{document}
+
+
+                 % ENTER PAPER TITLE HERE %
+\begin{center}
+  \large{LILA: Language-Informed Latent Actions}
+\end{center}
+           % ################################### %
+
+Shared autonomy aims to realize the problem of human-robot collaboration for complex manipulation tasks. For instance, a myriad of physical disabilities enforce humans to operate robots using teleoperation or low-level control commands. The aforesaid may be challenging for complex high-dimensional tasks or temporally long trajectories. The work introduces Language Informed Latent Actions (LILA), a framework to augment shared autonomy utilizing language inputs. LILA combines low-level control inputs with discrete language inputs to provide users with a semantically meaningful control space. The control space, based on the language input, further adapts as per the dimensionality of the task and robot controls. In a series of experiments consisting of real-world user studies with the 7 Degree of Freedom (DoF) Franka Emika Panda Arm, the LILA framework demonstrates sample-efficient and qualitatively preferable performance,
+
+The key to LILA is the usage of language to modulate a user's low-level controller. This modulation is carried out on the basis of the utterance provided to the assistive robot. For instance, the $\textit{"grab the cereal bowl"}$ exposes a semantically meaningful low-dimensional control space wherein one dimension may control the distance from the robot's end-effector to the ceral bowl, while the other may control the angle of the bowl. LILA incorporates the above intuition utilizing a conditional Auto-Encoder (CAE) architecture wherein the encoder learns high-level representations of language commands, states and user actions. These representations are fused with prior state and language utterances to reproduce the actions using the mean squared error. During control, user actions are directly leveraged as representational commands for the decoder. Training of the decoder module further consists of the pretrained Distil-RoBERTa architecture wherein encoded tokens undergo a similarity search followed by the FiLM layer. To further motivate disambiguation of the low-granularity controls using language inputs, LILA executes multi-task training which include multiple demonstrations of standard and latent action sequences. 
+
+LILA demonstrates improved success rate across all sub-tasks as well as the main task when compared to imitation learning and teleoperated end-effector control. Suitability of LILA is validated as a result of the minimized jerk occurrences across all control dimensions during the user study. Additionally, LILA is found qualitatively preferable to users based on the user response observed on the Likert scale. While LILA presents an apt amalgamation of language with low-dimensional control, it raises two new questions for shared autonomy. Firstly, the framework incorporates language to disambiguate the control space. A natural question that arises is \textit{"Can LILA utilize solely the occurrences to execute control commands?"} By only using the language as a medium, the system would have less to be troubled with the challenges of optimal control during longer temporal spans. Along similar lines, the second direction may look towards more expressive utterances wherein complex vocabulary tokens can be used to inform of the assistance. A combination of expressive tokens with reduced control-based hindrances may enable LILA to better execute user preferences.
+
+
+\end{document}
