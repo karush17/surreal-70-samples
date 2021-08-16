@@ -21,7 +21,7 @@ This repository is a collection of 70 short summaries of papers in Deep Learning
 |12|[Cautious Adaptation For Reinforcement Learning in Safety-Critical Settings](https://arxiv.org/pdf/2008.06622.pdf)|Jesse Zhang, Brian Cheung, Chelsea Finn, Sergey Levine, Dinesh Jayaraman|[link](Reviews/Review-12/main.pdf)|
 |13|[Model-Based Reinforcement Learning with Value-Targeted Regression](https://openreview.net/pdf?id=MGPm46WILav)|Zeyu Jia, Lin F. Yang, Csaba Szepesvari, Mengdi Wang|[link](Reviews/Review-13/main.pdf)|
 |14|[Skill Transfer Via Partially Amortized Hierarchical Planning](https://openreview.net/pdf?id=jXe91kq3jAq)|Kevin Xie, Homanga Bharadhwaj, Danijar Hafner, Animesh Garg, Florian Shkurti|[link](Reviews/Review-14/main.pdf)|
-|15|[Evaluating Agents Without Rewards](https://openreview.net/pdf?id=FoM-RnF6SNe)|Jimmy Ba, Danijar Hafner|[link](Reviews/Review-15/main.pdf)|
+|15|[Evaluating Agents Without Rewards](https://openreview.net/pdf?id=FoM-RnF6SNe)|Brendon Matusch, Jimmy Ba, Danijar Hafner|[link](Reviews/Review-15/main.pdf)|
 |16|[Conservative Safety Critics For Exploration](https://arxiv.org/pdf/2010.14497.pdf)|Homanga Bharadhwaj, Aviral Kumar, Nicholas Rhinehart, Sergey Levine, Florian Shkurti, Animesh Garg|[link](Reviews/Review-16/main.pdf)|
 |17|[Mastering Atari with Discrete World Models](https://arxiv.org/pdf/2010.02193.pdf)|Danijar Hafner, Timothy Lillicrap, Mohammad Norouzi, Jimmy Ba|[link](Reviews/Review-17/main.pdf)|
 |18|[Weighted QMIX: Expanding Monotonic Value Function Factorisation for Deep Multi-Agent Reinforcement Learning](https://arxiv.org/pdf/2006.10800.pdf)|Tabish Rashid, Gregory Farquhar, Bei Peng, Shimon Whiteson|[link](Reviews/Review-18/main.pdf)|
@@ -75,6 +75,7 @@ This repository is a collection of 70 short summaries of papers in Deep Learning
 |66|[High-Dimensional Bayesian Optimization via Nested Riemannian Manifolds](https://arxiv.org/pdf/2010.10904.pdf)|Noémie Jaquier, Leonel Rozo|[link](Reviews/Review-66/main.pdf)|
 |67|[Risk-Averse Offline Reinforcement Learning](https://openreview.net/pdf?id=TBIzh9b5eaz)|Núria Armengol Urpí, Sebastian Curi, Andreas Krause|[link](Reviews/Review-67/main.pdf)|
 |68|[Provably Good Batch Reinforcement Learning Without Great Exploration](https://arxiv.org/pdf/2007.08202.pdf)|Yao Liu, Adith Swaminathan, Alekh Agarwal, Emma Brunskill|[link](Reviews/Review-68/main.pdf)|
+|69|[LILA: Language-Informed Latent Actions](https://openreview.net/pdf?id=_lkBGOctkip)|Anonymous Authors|[link](Reviews/Review-69/main.pdf)|
 
 
 ## <a name="guidlines"></a>Summary Guidlines
