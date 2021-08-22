@@ -3,6 +3,8 @@
 ## Introduction
 This repository is a collection of 70 short summaries of papers in Deep Learning. Summaries are based on papers which explore novel groundbreaking ideas or consist of theoretically rich concepts. Each short summary was typically added each week which explores essential aspects of the work, its technical innovation and new questions and ideas raised by the work. Length of each summary is 1 page. Each summary is based on a fixed set of guidlines which are given [here](#guidlines).  
 
+Note- At the time of writing a sample, I had no relation to the authors or their respective organizations. Opinions and claims expressed in the text are solely my own. 
+
 ## Available Paper Summaries
 
 |Summary Number|Paper Title|Author List|Summary Link|
