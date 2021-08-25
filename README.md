@@ -78,6 +78,7 @@ Note- At the time of writing a sample, I had no relation to the authors or their
 |67|[Risk-Averse Offline Reinforcement Learning](https://openreview.net/pdf?id=TBIzh9b5eaz)|Núria Armengol Urpí, Sebastian Curi, Andreas Krause|[link](Reviews/Review-67/main.pdf)|
 |68|[Provably Good Batch Reinforcement Learning Without Great Exploration](https://arxiv.org/pdf/2007.08202.pdf)|Yao Liu, Adith Swaminathan, Alekh Agarwal, Emma Brunskill|[link](Reviews/Review-68/main.pdf)|
 |69|[LILA: Language-Informed Latent Actions](https://openreview.net/pdf?id=_lkBGOctkip)|Anonymous Authors|[link](Reviews/Review-69/main.pdf)|
+|70|[Tesseract: Tensorised Actors for Multi-Agent Reinforcement Learning](https://arxiv.org/pdf/2106.00136.pdf)|Anuj Mahajan, Mikayel Samvelyan, Lei Mao, Viktor Makoviychuk, Animesh Garg, Jean Kossaifi, Shimon Whiteson, Yuke Zhu, Animashree Anandkumar|[link](Reviews/Review-70/main.pdf)|
 
 
 ## <a name="guidlines"></a>Summary Guidlines
