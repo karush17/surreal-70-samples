@@ -1,5 +1,5 @@
 
-\documentclass[11pt,letterpaper]{article}
+\documentclass[12pt,letterpaper]{article}
 \usepackage{fullpage}
 \usepackage[top=2cm, bottom=4.5cm, left=2.5cm, right=2.5cm]{geometry}
 \usepackage{amsmath,amsthm,amsfonts,amssymb,amscd}
@@ -62,5 +62,9 @@ Multi-Agent Reinforcement Learning (MARL) presents a challenging problem in the 
 The key idea behind Tesseract is to view the output of a joint $Q$-function as a tensor whose modes correspond to the actions of different agents. The formulation utilizes the curried form wherein a particular index of the tensor structure is held fixed. This view gives rise to the Tensorised Bellman Equation wherein the combination of tensor products and additions produces a generalization to the recursive dynamic programming counterpart. Through this lens, the work frames Tesseract as a low rank decomposition to the joint $Q$-function. In case of the model-free implementation, the rank constraint is directly embedded into the network architecture wherein agent interactions are modeled using joint representations. This involves a rank $k$ projection step prior to learning the action and policy parameters of actors. Theoretically, the family of Tesseract algorithms holds representational guarantees. The rank of $Q$-function is bounded by lower rank approximations leading to a sound convergence result. Additionally, the framework presents an efficient PAC guarantee wherein the method only requires $\mathcal{O}(|U|^{n/2})$ joint actions which is a vanishing fraction and significantly lower in comparison to the traditional $\mathcal{O}(|U|^{n})$ samples.
 
 Tesseract agents outperform prior methods such as QMIX and VDN on the StartCraft II benchmark by a significant margin. While IQL does not model agent interactions, FQL is only able to model pairwise interactions which hints at a representational bottleneck. QMIX and VDN methods suffer due to the lack of exploration arising from monotonic approximations within the network structure. The above validate the iincreased representational capacity of Tesseract. However, it would be interesting to see Tesseract explicitly validate its theoretical guarantees using a dedicated set of experiments. For instance, the representational capacity of the methods can be validated by keeping a task fixed and varying the number of agents (hence joint actions) in the setting.
+
+Extension of the MARL setup to the tensorised framework presents two new directions for future research. Firstly, the work can be extended towards other formulation of RL such as single agent online and offline setups wherein the action space is large. And secondly, it would be intriguing to see Tesseract obey its guarantees with varying number of agents. 
+
+The work presented Tesseract, a general MARL framework which adheres to the novel tensorised viewpoint of the Bellman equation. Tesseract presents representational guarantees and outperforms prior approaches in MARL.
 
 \end{document}
