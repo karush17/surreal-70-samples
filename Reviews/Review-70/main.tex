@@ -1,0 +1,66 @@
+
+\documentclass[11pt,letterpaper]{article}
+\usepackage{fullpage}
+\usepackage[top=2cm, bottom=4.5cm, left=2.5cm, right=2.5cm]{geometry}
+\usepackage{amsmath,amsthm,amsfonts,amssymb,amscd}
+\usepackage{lastpage}
+\usepackage{enumerate}
+\usepackage{fancyhdr}
+\usepackage{mathrsfs}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{listings}
+\usepackage{hyperref}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{float}
+\hypersetup{%
+  colorlinks=true,
+  linkcolor=blue,
+  linkbordercolor={0 0 1}
+}
+\renewcommand\lstlistingname{Algorithm}
+\renewcommand\lstlistlistingname{Algorithms}
+\def\lstlistingautorefname{Alg.}
+
+\lstdefinestyle{Python}{
+    language        = Python,
+    frame           = lines, 
+    basicstyle      = \footnotesize,
+    keywordstyle    = \color{blue},
+    stringstyle     = \color{green},
+    commentstyle    = \color{red}\ttfamily
+}
+
+\setlength{\parindent}{0.0in}
+\setlength{\parskip}{0.05in}
+
+
+
+\pagestyle{fancyplain}
+\headheight 35pt
+                 % ENTER REVIEW NUMBER HERE %
+\chead{\textbf{\large Review-70}}
+           % ################################### %
+
+\lfoot{}
+\cfoot{}
+\rfoot{\small\thepage}
+\headsep 1.5em
+
+\begin{document}
+
+
+                 % ENTER PAPER TITLE HERE %
+\begin{center}
+  \large{Tesseract: Tensorised Actors for Multi-Agent Reinforcement Learning}
+\end{center}
+           % ################################### %
+
+Multi-Agent Reinforcement Learning (MARL) presents a challenging problem in the setting of Centralised Training and Decentralised Control (CTDC). Increasing number of agents lead to an exponential blowup of the action space along with the exacerbation of lagging critic. The work presents a novel view of the joint agent action-value function to alleviate the aforesaid concerns. The formulation consists of a tensorised formulation of the Bellman equation wherein the recursive relation is generalized with regards to tensorized products. This gives rise to Tesseract, a model-based/model-free framework which decomposes the low-rank $Q$-tensor across agents to represent agent interactions. Tesseract holds PAC guarantees towards its representational capacity and outperforms prior MARL methods.
+
+The key idea behind Tesseract is to view the output of a joint $Q$-function as a tensor whose modes correspond to the actions of different agents. The formulation utilizes the curried form wherein a particular index of the tensor structure is held fixed. This view gives rise to the Tensorised Bellman Equation wherein the combination of tensor products and additions produces a generalization to the recursive dynamic programming counterpart. Through this lens, the work frames Tesseract as a low rank decomposition to the joint $Q$-function. In case of the model-free implementation, the rank constraint is directly embedded into the network architecture wherein agent interactions are modeled using joint representations. This involves a rank $k$ projection step prior to learning the action and policy parameters of actors. Theoretically, the family of Tesseract algorithms holds representational guarantees. The rank of $Q$-function is bounded by lower rank approximations leading to a sound convergence result. Additionally, the framework presents an efficient PAC guarantee wherein the method only requires $\mathcal{O}(|U|^{n/2})$ joint actions which is a vanishing fraction and significantly lower in comparison to the traditional $\mathcal{O}(|U|^{n})$ samples.
+
+
+
+\end{document}
